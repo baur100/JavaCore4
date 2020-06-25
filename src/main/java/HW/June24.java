@@ -31,8 +31,6 @@ public static void main(String[] args) {
     Arrays.sort(myArray);
   }
 
-//3. Create a function  which takes int[] as a param and returns min of the array
-// invoke it from main() - pass {3,9,1,8,4,8,5} as a param
   public static int getMin(int myArray[]){
   int min = myArray[0];
   for(int i=0; i<myArray.length; i++){
