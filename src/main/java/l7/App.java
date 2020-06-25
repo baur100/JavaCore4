@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) {
 
         sayHelloToYou();
-        int[]arr1 = { 1,2,4,4,5,78,90,1,23};
+        int[]arr1 = {1,2,4,4,5,78,90,1,23};
         int[]arr2 = {-4,-3,-9};
         int[]arr3 = {5,-100};
 
