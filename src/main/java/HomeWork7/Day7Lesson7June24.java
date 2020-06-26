@@ -1,6 +1,6 @@
 package HomeWork7;
 
-public class Day7Lesson7 {
+public class Day7Lesson7June24 {
     public static void main(String[] args){
       classWork7();
     }
@@ -20,7 +20,6 @@ public class Day7Lesson7 {
 
         String[] fr = {"Apple", "Orange", "Plum", "Peach"};
         String[] f = twoFirstElements(fr);
-
         System.out.println(f[0]+" "+f[1]);
 
     }
