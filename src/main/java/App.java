@@ -15,7 +15,7 @@ public class App {
                 min = v;
             }
         }
-
+return min;
 
     }
 }
