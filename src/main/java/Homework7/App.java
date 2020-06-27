@@ -34,9 +34,9 @@ public class App {
         }
     }
 
-    public static int getMin(int[]arr){
-        int min = arr[0];
-        for(int v:arr){
+    public static int getMin(int[]arrayToMin){
+        int min = arrayToMin[0];
+        for(int v:arrayToMin){
             if(v<min){
                 min=v;
             }
