@@ -1,5 +1,7 @@
 package Homework7;
 
+import java.util.Arrays;
+
 public class App {
     public static void main(String[] args) {
 
@@ -25,9 +27,10 @@ public class App {
         return sum;
     }
 
-    public static void sort(int[]arr){
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+    public static void sort(int[]arrayToSort){
+        Arrays.sort(arrayToSort);
+        for (int v : arrayToSort){
+            System.out.println(v);
         }
     }
 
