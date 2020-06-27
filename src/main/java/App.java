@@ -1,5 +1,23 @@
+import org.w3c.dom.ls.LSOutput;
+
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello, World");
+
+
+        int[] arr = {3, 9, 1, 8, 4, 8, 5};
+        System.out.println(arr);
+    }
+
+    public static int min(int[] arr) {
+        int min = arr[0];
+        for (int v : arr) {
+            if (v > min) {
+                min = v;
+            }
+        }
+
+
     }
 }
+
+
