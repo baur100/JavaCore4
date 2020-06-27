@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f59cef6e-ed59-445c-943e-7d2d92dd185c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dnLbhSrNLOw3s5nnZikftVtn6J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.June24">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="JavaCore4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="June24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW.June24" />
+      <module name="JavaCore4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.June24" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f59cef6e-ed59-445c-943e-7d2d92dd185c" name="Default Changelist" comment="" />
+      <created>1593055546201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593055546201</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Homework of June 24th">
+      <created>1593058356042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593058356042</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Homework of June 24th - deleted unnecessary comments">
+      <created>1593058529648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593058529648</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework of June 24th" />
+    <MESSAGE value="Homework of June 24th - deleted unnecessary comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework of June 24th - deleted unnecessary comments" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="139" key="#Plugins" timestamp="1593056392704">
+      <screen x="0" y="23" width="1680" height="937" />
+    </state>
+    <state x="440" y="139" key="#Plugins/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593056392704" />
+    <state x="427" y="64" key="CommitChangelistDialog2" timestamp="1593058529478">
+      <screen x="0" y="23" width="1680" height="937" />
+    </state>
+    <state x="427" y="64" key="CommitChangelistDialog2/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593058529478" />
+    <state width="1680" height="257" key="GridCell.Tab.0.bottom" timestamp="1593104357568">
+      <screen x="0" y="23" width="1680" height="937" />
+    </state>
+    <state width="1680" height="257" key="GridCell.Tab.0.bottom/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593104357568" />
+    <state width="1680" height="257" key="GridCell.Tab.0.center" timestamp="1593104357567">
+      <screen x="0" y="23" width="1680" height="937" />
+    </state>
+    <state width="1680" height="257" key="GridCell.Tab.0.center/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593104357567" />
+    <state width="1680" height="257" key="GridCell.Tab.0.left" timestamp="1593104357566">
+      <screen x="0" y="23" width="1680" height="937" />
+    </state>
+    <state width="1680" height="257" key="GridCell.Tab.0.left/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593104357566" />
+    <state width="1680" height="257" key="GridCell.Tab.0.right" timestamp="1593104357568">
+      <screen x="0" y="23" width="1680" height="937" />
+    </state>
+    <state width="1680" height="257" key="GridCell.Tab.0.right/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593104357568" />
+    <state x="880" y="249" key="Vcs.Push.Dialog.v2" timestamp="1593058540361">
+      <screen x="0" y="23" width="1680" height="937" />
+    </state>
+    <state x="-907" y="-402" key="Vcs.Push.Dialog.v2/-1920.-657.1920.1057/0.23.1680.937@-1920.-657.1920.1057" timestamp="1593056815625" />
+    <state x="880" y="249" key="Vcs.Push.Dialog.v2/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593058540361" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
