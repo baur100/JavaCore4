@@ -1,5 +1,7 @@
 package HomeWork7;
 
+import java.util.Arrays;
+
 public class HomeWorkDay7Lesson7 {
 
     public static void main(String[] args) {
@@ -11,11 +13,24 @@ public class HomeWorkDay7Lesson7 {
         int[] inputQ2 = {3, 9, 1, 8, 4, 8, 5};
         sortAscending(inputQ2);
         sortDescending(inputQ2);
+        //HomeWorkDiscussion - Array Sort Type
+        sort(inputQ2);
 
         //Q3. Print min value from the given array
         int[] inputQ3 = {3,9,1,8,4,8,5};
         System.out.println("\n\nThe min value from the given array is: "+min(inputQ3));
 
+    }
+
+    /*
+    * Array sorting method discussed in HomeWork session
+    */
+    public static void sort(int[] arrayToSort){
+        Arrays.sort(arrayToSort);
+        System.out.print("\n\nSorted Array:");
+        for (int sort:arrayToSort) {
+            System.out.print(" "+sort+" ");
+        }
     }
 
     /*
