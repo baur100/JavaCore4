@@ -29,7 +29,7 @@ public class HW7 {
     public static void sort ( int[] arr){
             Arrays.sort(arr);
         for (int value : arr)
-            System.out.println(value);
+            System.out.println(Arrays.toString(arr));
 
     }
 
