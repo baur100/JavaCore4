@@ -1,6 +1,8 @@
+package HW7;
+
 import java.util.Arrays;
 
-public class App {
+public class HW7_mine {
     public static void main(String[] args) {
         //1)
             int[] numbers = {2, 3, 5, 6, 7, 8};
@@ -29,7 +31,7 @@ public class App {
         public static void sort ( int[] arr){
             Arrays.sort(arr);
             for (int value : arr)
-                System.out.println(Arrays.toString(arr));
+                System.out.println(value);
 
         }
 
