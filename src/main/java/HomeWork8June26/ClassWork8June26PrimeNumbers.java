@@ -18,10 +18,11 @@ public class ClassWork8June26PrimeNumbers {
     //Prime numbers<50 = 2,3,5,7,11,13,17,19,23...etc.
     public static boolean isPrime(int number){
         for (int i=2; i<number-1;i++){
-            if(number%i==0){
+            if(number%i==0 || i*i == number){
                 return false;
             }
         }
         return true;
     }
+
 }
