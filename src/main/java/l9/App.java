@@ -9,7 +9,7 @@ public class App {
 
         anna.hello("Peter");
 
-        // String, int, char, boolean
+
 
 //        System.out.println(anna.lastName);
 
