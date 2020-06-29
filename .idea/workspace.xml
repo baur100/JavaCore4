@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f59cef6e-ed59-445c-943e-7d2d92dd185c" name="Default Changelist" comment="" />
+    <list default="true" id="f59cef6e-ed59-445c-943e-7d2d92dd185c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw9/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw9/burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw9/deluxeBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw9/healthyBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw9/kidsBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +43,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.June24">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw9.App" />
+      <module name="JavaCore4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="JavaCore4" />
@@ -56,8 +77,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW.PrimeNumber" />
+      <module name="JavaCore4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HW.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.June24" />
         <item itemvalue="Application.App" />
       </list>
@@ -88,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593058529648</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Homework of June 24th - deleted unnecessary comments">
+      <created>1593225075834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593225075834</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -97,35 +140,65 @@
     <option name="LAST_COMMIT_MESSAGE" value="Homework of June 24th - deleted unnecessary comments" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="932" y="365" width="572" height="426" key="#Notifications" timestamp="1593224997581">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="932" y="365" width="572" height="426" key="#Notifications/0.23.1680.944@0.23.1680.944" timestamp="1593224997581" />
     <state x="440" y="139" key="#Plugins" timestamp="1593056392704">
       <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state x="440" y="139" key="#Plugins/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593056392704" />
-    <state x="427" y="64" key="CommitChangelistDialog2" timestamp="1593058529478">
-      <screen x="0" y="23" width="1680" height="937" />
+    <state x="-1174" y="-439" key="#com.intellij.ide.util.MemberChooser" timestamp="1593463894349">
+      <screen x="-1920" y="-657" width="1920" height="1057" />
+    </state>
+    <state x="-1174" y="-439" key="#com.intellij.ide.util.MemberChooser/-1920.-657.1920.1057/0.23.1680.944@-1920.-657.1920.1057" timestamp="1593463894349" />
+    <state x="653" y="218" key="#com.intellij.ide.util.MemberChooser/-1920.-657.1920.1057/0.23.1680.944@0.23.1680.944" timestamp="1593455258297" />
+    <state x="687" y="72" key="CommitChangelistDialog2" timestamp="1593225075580">
+      <screen x="0" y="23" width="1680" height="944" />
     </state>
     <state x="427" y="64" key="CommitChangelistDialog2/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593058529478" />
-    <state width="1680" height="257" key="GridCell.Tab.0.bottom" timestamp="1593104357568">
-      <screen x="0" y="23" width="1680" height="937" />
+    <state x="687" y="72" key="CommitChangelistDialog2/0.23.1680.944@0.23.1680.944" timestamp="1593225075580" />
+    <state x="530" y="123" width="1050" height="744" key="DiffContextDialog" timestamp="1593226522020">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="530" y="123" width="1050" height="744" key="DiffContextDialog/-1920.-657.1920.1057/0.23.1680.944@-1920.-657.1920.1057" timestamp="1593226522020" />
+    <state width="1680" height="295" key="GridCell.Tab.0.bottom" timestamp="1593466386115">
+      <screen x="0" y="23" width="1680" height="944" />
     </state>
     <state width="1680" height="257" key="GridCell.Tab.0.bottom/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593104357568" />
-    <state width="1680" height="257" key="GridCell.Tab.0.center" timestamp="1593104357567">
-      <screen x="0" y="23" width="1680" height="937" />
+    <state width="1680" height="295" key="GridCell.Tab.0.bottom/-1920.-657.1920.1057/0.23.1680.944@0.23.1680.944" timestamp="1593466386115" />
+    <state width="582" height="257" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1593225118750" />
+    <state width="1680" height="295" key="GridCell.Tab.0.center" timestamp="1593466386114">
+      <screen x="0" y="23" width="1680" height="944" />
     </state>
     <state width="1680" height="257" key="GridCell.Tab.0.center/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593104357567" />
-    <state width="1680" height="257" key="GridCell.Tab.0.left" timestamp="1593104357566">
-      <screen x="0" y="23" width="1680" height="937" />
+    <state width="1680" height="295" key="GridCell.Tab.0.center/-1920.-657.1920.1057/0.23.1680.944@0.23.1680.944" timestamp="1593466386114" />
+    <state width="582" height="257" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1593225118749" />
+    <state width="1680" height="295" key="GridCell.Tab.0.left" timestamp="1593466386114">
+      <screen x="0" y="23" width="1680" height="944" />
     </state>
     <state width="1680" height="257" key="GridCell.Tab.0.left/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593104357566" />
-    <state width="1680" height="257" key="GridCell.Tab.0.right" timestamp="1593104357568">
-      <screen x="0" y="23" width="1680" height="937" />
+    <state width="1680" height="295" key="GridCell.Tab.0.left/-1920.-657.1920.1057/0.23.1680.944@0.23.1680.944" timestamp="1593466386114" />
+    <state width="582" height="257" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1593225118748" />
+    <state width="1680" height="295" key="GridCell.Tab.0.right" timestamp="1593466386115">
+      <screen x="0" y="23" width="1680" height="944" />
     </state>
     <state width="1680" height="257" key="GridCell.Tab.0.right/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593104357568" />
+    <state width="1680" height="295" key="GridCell.Tab.0.right/-1920.-657.1920.1057/0.23.1680.944@0.23.1680.944" timestamp="1593466386115" />
+    <state width="582" height="257" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1593225118749" />
     <state x="880" y="249" key="Vcs.Push.Dialog.v2" timestamp="1593058540361">
       <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state x="-907" y="-402" key="Vcs.Push.Dialog.v2/-1920.-657.1920.1057/0.23.1680.937@-1920.-657.1920.1057" timestamp="1593056815625" />
     <state x="880" y="249" key="Vcs.Push.Dialog.v2/-1920.-657.1920.1057/0.23.1680.937@0.23.1680.937" timestamp="1593058540361" />
+    <state x="816" y="215" key="git4idea.branch.GitSmartOperationDialog" timestamp="1593225209217">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="816" y="215" key="git4idea.branch.GitSmartOperationDialog/0.23.1680.944@0.23.1680.944" timestamp="1593225209217" />
+    <state x="840" y="290" key="git4idea.merge.GitMergeDialog" timestamp="1593225108316">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="840" y="290" key="git4idea.merge.GitMergeDialog/0.23.1680.944@0.23.1680.944" timestamp="1593225108316" />
   </component>
   <component name="masterDetails">
     <states>
