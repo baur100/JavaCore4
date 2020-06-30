@@ -1,4 +1,4 @@
-package HW9;
+package HW10;
 
 public class Student {
     private String StudentName;
