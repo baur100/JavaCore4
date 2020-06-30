@@ -7,7 +7,7 @@ public class Phone {
     public String os;
 
     public void owner(String person) {
-        System.out.println(person+" has an "+type+" phone");
-        System.out.println("It's "+brand+" "+model+" running on "+os);
+        System.out.println(person+" has an "+type+" phone" +
+                "\nIt's "+brand+" "+model+" running on "+os);
     }
 }
