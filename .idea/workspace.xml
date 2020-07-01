@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aaf6487c-6417-4939-baed-f8b0f44809a5" name="Default Changelist" comment="hw9">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dnB253LL1SKz3zoHwpL7KKLvdQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.loop">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw9.App" />
+      <module name="JavaCore4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="JavaCore4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumOfArray" />
+      <module name="JavaCore4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop" />
+      <module name="JavaCore4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myHm7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw7.myHm7" />
+      <module name="JavaCore4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.loop" />
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.myHm7" />
+        <item itemvalue="Application.SumOfArray" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aaf6487c-6417-4939-baed-f8b0f44809a5" name="Default Changelist" comment="" />
+      <created>1593050766371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593050766371</updated>
+      <workItem from="1593050768903" duration="20440000" />
+      <workItem from="1593479911154" duration="2821000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1593051268718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593051268718</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1593052220435</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593052220435</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second commit">
+      <created>1593053737157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593053737157</updated>
+    </task>
+    <task id="LOCAL-00004" summary="second commit">
+      <created>1593224875312</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593224875312</updated>
+    </task>
+    <task id="LOCAL-00005" summary="second commit">
+      <created>1593225055470</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593225055470</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hw9">
+      <created>1593403085990</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593403085991</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="hw9" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw9" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="212" y="23" width="1024" height="834" key="#Project_Structure" timestamp="1593055026603">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="212" y="23" width="1024" height="834" key="#Project_Structure/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593055026603" />
+    <state width="1313" height="209" key="GridCell.Tab.0.bottom" timestamp="1593574855965">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1313" height="209" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1593481153089" />
+    <state width="1313" height="209" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1593574855965" />
+    <state width="1313" height="209" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1593221412117" />
+    <state width="1340" height="209" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1593220892306" />
+    <state width="1358" height="209" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1593220693418" />
+    <state width="1313" height="209" key="GridCell.Tab.0.bottom/0.23.1440.836@0.23.1440.836" timestamp="1593403044733" />
+    <state width="1358" height="209" key="GridCell.Tab.0.bottom/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593052615361" />
+    <state width="1313" height="209" key="GridCell.Tab.0.center" timestamp="1593574855959">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1313" height="209" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1593481153087" />
+    <state width="1313" height="209" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1593574855959" />
+    <state width="1313" height="209" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1593221412116" />
+    <state width="1340" height="209" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1593220892304" />
+    <state width="1358" height="209" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1593220693417" />
+    <state width="1313" height="209" key="GridCell.Tab.0.center/0.23.1440.836@0.23.1440.836" timestamp="1593403044732" />
+    <state width="1358" height="209" key="GridCell.Tab.0.center/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593052615359" />
+    <state width="1313" height="209" key="GridCell.Tab.0.left" timestamp="1593574855957">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1313" height="209" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1593481153086" />
+    <state width="1313" height="209" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1593574855957" />
+    <state width="1313" height="209" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1593221412115" />
+    <state width="1340" height="209" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1593220892303" />
+    <state width="1358" height="209" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1593220693417" />
+    <state width="1313" height="209" key="GridCell.Tab.0.left/0.23.1440.836@0.23.1440.836" timestamp="1593403044731" />
+    <state width="1358" height="209" key="GridCell.Tab.0.left/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593052615359" />
+    <state width="1313" height="209" key="GridCell.Tab.0.right" timestamp="1593574855964">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1313" height="209" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1593481153088" />
+    <state width="1313" height="209" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1593574855964" />
+    <state width="1313" height="209" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1593221412116" />
+    <state width="1340" height="209" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1593220892305" />
+    <state width="1358" height="209" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1593220693417" />
+    <state width="1313" height="209" key="GridCell.Tab.0.right/0.23.1440.836@0.23.1440.836" timestamp="1593403044732" />
+    <state width="1358" height="209" key="GridCell.Tab.0.right/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593052615360" />
+    <state x="365" y="218" key="MultipleFileMergeDialog" timestamp="1593051302330">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="365" y="218" key="MultipleFileMergeDialog/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593051302330" />
+    <state x="324" y="190" key="Vcs.Push.Dialog.v2" timestamp="1593403098728">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="324" y="190" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1593403098728" />
+    <state x="324" y="190" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593054119416" />
+    <state x="324" y="190" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.835@0.23.1440.835" timestamp="1593052354820" />
+    <state x="155" y="133" width="1200" height="612" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593216825031">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="155" y="133" width="1200" height="612" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.833@0.23.1440.833" timestamp="1593216825031" />
+    <state x="519" y="245" key="git4idea.merge.GitMergeDialog" timestamp="1593623422167">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="519" y="245" key="git4idea.merge.GitMergeDialog/0.23.1440.831@0.23.1440.831" timestamp="1593621902691" />
+    <state x="519" y="245" key="git4idea.merge.GitMergeDialog/0.23.1440.832@0.23.1440.832" timestamp="1593623422167" />
+    <state x="519" y="246" key="git4idea.merge.GitMergeDialog/0.23.1440.836@0.23.1440.836" timestamp="1593402091751" />
+    <state x="519" y="245" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.832@0.23.1440.832" timestamp="1593226757836" />
+    <state x="519" y="245" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.833@0.23.1440.833" timestamp="1593225094393" />
+    <state x="519" y="245" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593055164005" />
+    <state x="428" y="239" key="git4idea.merge.GitPullDialog" timestamp="1593621960475">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="428" y="239" key="git4idea.merge.GitPullDialog/0.23.1440.831@0.23.1440.831" timestamp="1593621960475" />
+    <state x="428" y="240" key="git4idea.merge.GitPullDialog/0.23.1440.835@0.23.1440.835" timestamp="1593397234346" />
+    <state x="428" y="239" key="git4idea.merge.GitPullDialog/1440.-81.1920.1057/0.23.1440.832@0.23.1440.832" timestamp="1593227857460" />
+    <state x="428" y="239" key="git4idea.merge.GitPullDialog/1440.-81.1920.1057/0.23.1440.833@0.23.1440.833" timestamp="1593224700600" />
+    <state x="428" y="239" key="git4idea.merge.GitPullDialog/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593054090263" />
+    <state x="389" y="180" width="670" height="676" key="search.everywhere.popup" timestamp="1593208399346">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="389" y="180" width="670" height="676" key="search.everywhere.popup/0.23.1440.833@0.23.1440.833" timestamp="1593208399346" />
+  </component>
+</project>
