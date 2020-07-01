@@ -11,7 +11,7 @@ public class Bike {
         System.out.println("color = "+color);
 
     }
-    public void purchase(){
-        System.out.println("I've purchased a new "+brand + " "+model+ " of the color " +color);
+    public void purchase() {
+        System.out.println("I've purchased a new " + brand + " " + model + " of the color " + color);
     }
 }
