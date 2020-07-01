@@ -32,6 +32,8 @@ public class ClassPetShopHW10Jun29 {
         //String petHouse, double petHousePrice, String petMattress, double petMattressPrice, String petToys, double petToysPrice, String petDress, double petDressPrice
         PetAccessories pa2 = new PetAccessories("Dog House", 190.49, "SoftPetMattress", 89.90, "ToyForDogs", 10.90, "DogDress", 2.99);
         pa2.printInfo();
+        System.out.println(pl2.toString());
+
 
         //String firstName, String lastName
         PetLovers pl3 = new PetLovers("Peter", "Paul");

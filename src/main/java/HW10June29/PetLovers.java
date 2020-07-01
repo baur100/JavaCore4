@@ -24,6 +24,14 @@ public class PetLovers {
         System.out.println("\nThe Customer "+firstName+" "+lastName+" is looking out for a "+petRequired+" worth $"+petCostBudget);
     }
 
+    public String toString(){
+        return "\nA Pet lover named "+firstName+" "+lastName+" has set a cost budget of $"+petCostBudget+" as cost for the pet "+petRequired;
+    }
+
+    public void printInfoFromString(){
+        System.out.println(toString());
+    }
+
     public void setFirstName(String firstName){ this.firstName = firstName; }
     public String getFirstName(){ return this.firstName; }
 
