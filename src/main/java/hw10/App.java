@@ -3,6 +3,13 @@ package hw10;
 public class App {
 
   public static void main(String[] args) {
+    BeverageMenu emptyMenu = new BeverageMenu();
+    emptyMenu.setBaseAlcohol("vodka");
+
+    System.out.println(emptyMenu.getCocktailName());
+    emptyMenu.setCocktailName("My new cockatail");
+    System.out.println(emptyMenu.getCocktailName());
+    System.out.println(emptyMenu.getBaseAlcohol());
     FoodMenu myMenu = new FoodMenu("Coke");
     myMenu.orderMenu();
     System.out.println("***********************************************************");

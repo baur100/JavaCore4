@@ -34,6 +34,10 @@ public class BeverageMenu {
     this.cocktailPrice = cocktailPrice;
     this.baseAlcohol = baseAlcohol;
   }
+
+  public BeverageMenu() {
+  }
+
   public void orderDrinks(){
     System.out.println("You have ordered " +cocktailName+". This is based with " +baseAlcohol+
         ". The price is $" + cocktailPrice);
