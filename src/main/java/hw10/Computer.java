@@ -18,7 +18,7 @@ public class Computer {
 
     public void printData() {
         System.out.println("Computer model is " + model + "\n"
-                + "it was made in" + madeInYear + " and it has CPU " + CPU);
+                + "it was made in " + madeInYear + " and it has CPU " + CPU);
 
     }
 

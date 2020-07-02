@@ -19,7 +19,7 @@ public class Monitor {
 
     public void printData() {
         System.out.println("Monitor size is " + size + "\n"
-                + "it's price is" + price + " and it's " + inches+ "wide");
+                + "it's price is " + price + " and it's " + inches+ "wide");
 
     }
 
