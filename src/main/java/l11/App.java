@@ -11,7 +11,6 @@ public class App {
         String[] subjs= {"Math","History","Sociology","ComputerScience"};
         Address toddAddress = new Address("34 Liberty ave", "Boston", "MA", 44444,true);
         Student todd = new Student("Todd","Simmons",subjs,"Biology",toddAddress);
-
         String[] arr = todd.getSubjects();
 //        for (String v:arr){
 //            System.out.println(v);
@@ -19,7 +18,6 @@ public class App {
         todd.printInfo();
 
         String str = "Morrison";
-
         Student dora= new Student();
         dora.setLastName(str);
         dora.setMajor("Math");

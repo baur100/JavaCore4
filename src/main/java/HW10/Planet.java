@@ -41,5 +41,13 @@ package HW10;
             return NumberOfMoons;
         }
 
-    }
+
+       @Override
+       public String toString() {
+           return "Planet" +
+                   "\nPlanetName='" + PlanetName + '\'' +
+                   "\nOrbitOrder=" + OrbitOrder +
+                   "\nNumberOfMoons=" + NumberOfMoons;
+       }
+   }
 

@@ -41,4 +41,11 @@ public class Student {
         return Course;
     }
 
+    @Override
+    public String toString() {
+        return "Student" +
+                "StudentName='" + StudentName + '\'' +
+                "\nGrade=" + Grade +
+                "\nCourse='" + Course + '\'';
+    }
 }

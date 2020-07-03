@@ -18,6 +18,7 @@ public class App {
         Planet Venus = new Planet("Venus", 2, 0);
         Venus.printInfo();
         Planet Jupiter = new Planet();
+        System.out.println(Venus.toString());
 
         Jupiter.setPlanetName("Jupiter");
         Jupiter.setNumberOfMoons(17);
@@ -40,6 +41,7 @@ public class App {
         System.out.println("Course name is " + Diana.getCourse());
         System.out.println("Student name is " + Diana.getStudentName());
         System.out.println("Class Grade is " + Diana.getGrade());
+        System.out.println(Diana.toString());
 
 
         System.out.println("************************");
