@@ -44,6 +44,82 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HM9.App" />
+      <module name="JavaCore4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HM9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HM10.App" />
+      <module name="JavaCore4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HM10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Spare.App" />
+      <module name="JavaCore4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Spare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l10.App" />
+      <module name="JavaCore4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="l10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bhw7.Hw" />
+      <module name="JavaCore4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bhw7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Hw" />
+        <item itemvalue="Application.App (3)" />
+        <item itemvalue="Application.App (2)" />
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -75,6 +151,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -86,6 +163,10 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="517" y="155" key="RollbackChangesDialog/0.23.1440.816@0.23.1440.816" timestamp="1593187976094" />
+    <state x="500" y="234" key="git4idea.merge.GitMergeDialog" timestamp="1593798460006">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="500" y="234" key="git4idea.merge.GitMergeDialog/0.23.1440.821@0.23.1440.821" timestamp="1593798460006" />
     <state x="415" y="240" key="git4idea.merge.GitPullDialog" timestamp="1593188015378">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
