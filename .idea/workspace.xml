@@ -44,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HM9.App" />
       <module name="JavaCore4" />
@@ -163,9 +163,10 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="517" y="155" key="RollbackChangesDialog/0.23.1440.816@0.23.1440.816" timestamp="1593187976094" />
-    <state x="500" y="234" key="git4idea.merge.GitMergeDialog" timestamp="1593798460006">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="500" y="233" key="git4idea.merge.GitMergeDialog" timestamp="1593799812970">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
+    <state x="500" y="233" key="git4idea.merge.GitMergeDialog/0.23.1440.816@0.23.1440.816" timestamp="1593799812970" />
     <state x="500" y="234" key="git4idea.merge.GitMergeDialog/0.23.1440.821@0.23.1440.821" timestamp="1593798460006" />
     <state x="415" y="240" key="git4idea.merge.GitPullDialog" timestamp="1593188015378">
       <screen x="0" y="23" width="1440" height="816" />
