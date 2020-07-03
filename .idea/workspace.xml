@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2aab89f-92dc-47bd-9743-2188c01ffd86" name="Default Changelist" comment="HomeWork10">
-      <change afterPath="$PROJECT_DIR$/src/main/java/l11/App2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/l11/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/l11/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/l11/Teacher.java" afterDir="false" />
+    <list default="true" id="a2aab89f-92dc-47bd-9743-2188c01ffd86" name="Default Changelist" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/l11/App2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/l11/App2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/HM10" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (3)">
+  <component name="RunManager" selected="Application.App2">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HM9.App" />
       <module name="JavaCore4" />
@@ -123,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bhw7.Hw" />
+    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l11.App2" />
       <module name="JavaCore4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bhw7.*" />
+          <option name="PATTERN" value="l11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App2" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.Hw" />
       </list>
     </recent_temporary>
   </component>
