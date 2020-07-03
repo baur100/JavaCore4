@@ -19,14 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2aab89f-92dc-47bd-9743-2188c01ffd86" name="Default Changelist" comment="HomeWork9">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HM10/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HM10/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HM10/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HM10/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HM10/Soccer_Team.java" afterDir="false" />
+    <list default="true" id="a2aab89f-92dc-47bd-9743-2188c01ffd86" name="Default Changelist" comment="HomeWork10">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spare/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spare/Pilot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spare/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spare/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spare/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/l11/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/l11/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/l10/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/l10/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -72,7 +75,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/HM10" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (2)">
+  <component name="RunManager" selected="Application.App (3)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HM9.App" />
       <module name="JavaCore4" />
@@ -99,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l10.App" />
+    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Spare.App" />
       <module name="JavaCore4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l10.*" />
+          <option name="PATTERN" value="Spare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HM7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HM7.HM7" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l10.App" />
       <module name="JavaCore4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HM7.*" />
+          <option name="PATTERN" value="l10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.Hw" />
-        <item itemvalue="Application.HM7" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593616171457</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HomeWork10">
+      <created>1593636804000</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593636804000</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,13 +231,18 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="HomeWork7" />
     <MESSAGE value="HomeWork9" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork9" />
+    <MESSAGE value="HomeWork10" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork10" />
   </component>
   <component name="WindowStateProjectService">
     <state x="214" y="23" width="1024" height="816" key="#Project_Structure" timestamp="1593188339692">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="214" y="23" width="1024" height="816" key="#Project_Structure/0.23.1440.816@0.23.1440.816" timestamp="1593188339692" />
+    <state x="0" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1593657091961">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="0" y="283" key="#com.intellij.ide.util.MemberChooser/0.23.1440.814@0.23.1440.814" timestamp="1593657091961" />
     <state x="486" y="333" width="479" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593288877152">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
@@ -236,42 +251,42 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="0" y="352" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.821@0.23.1440.821" timestamp="1593282207100" />
-    <state width="1398" height="184" key="GridCell.Tab.0.bottom" timestamp="1593635156016">
+    <state width="1398" height="184" key="GridCell.Tab.0.bottom" timestamp="1593641951624">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593194409467" />
     <state width="1398" height="184" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1593631923535" />
-    <state width="1398" height="184" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1593635156016" />
+    <state width="1398" height="184" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1593641951624" />
     <state width="1398" height="179" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1593223177133" />
     <state width="1398" height="179" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1593194760164" />
     <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1593621665516" />
     <state width="1398" height="179" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1593283461054" />
-    <state width="1398" height="184" key="GridCell.Tab.0.center" timestamp="1593635156015">
+    <state width="1398" height="184" key="GridCell.Tab.0.center" timestamp="1593641951623">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1398" height="220" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593194409466" />
     <state width="1398" height="184" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1593631923534" />
-    <state width="1398" height="184" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1593635156015" />
+    <state width="1398" height="184" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1593641951623" />
     <state width="1398" height="179" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1593223177132" />
     <state width="1398" height="179" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1593194760163" />
     <state width="1398" height="186" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1593621665516" />
     <state width="1398" height="179" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1593283461054" />
-    <state width="1398" height="184" key="GridCell.Tab.0.left" timestamp="1593635156015">
+    <state width="1398" height="184" key="GridCell.Tab.0.left" timestamp="1593641951623">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1398" height="220" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593194409466" />
     <state width="1398" height="184" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1593631923534" />
-    <state width="1398" height="184" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1593635156015" />
+    <state width="1398" height="184" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1593641951623" />
     <state width="1398" height="179" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1593223177131" />
     <state width="1398" height="179" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1593194760162" />
     <state width="1398" height="186" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1593621665516" />
     <state width="1398" height="179" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1593283461053" />
-    <state width="1398" height="184" key="GridCell.Tab.0.right" timestamp="1593635156015">
+    <state width="1398" height="184" key="GridCell.Tab.0.right" timestamp="1593641951624">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state width="1398" height="220" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593194409467" />
     <state width="1398" height="184" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1593631923535" />
-    <state width="1398" height="184" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1593635156015" />
+    <state width="1398" height="184" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1593641951624" />
     <state width="1398" height="179" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1593223177132" />
     <state width="1398" height="179" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1593194760163" />
     <state width="1398" height="186" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1593621665516" />
@@ -284,10 +299,10 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="517" y="155" key="RollbackChangesDialog/0.23.1440.816@0.23.1440.816" timestamp="1593187976094" />
-    <state x="368" y="167" key="Vcs.Push.Dialog.v2" timestamp="1593291368467">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="368" y="166" key="Vcs.Push.Dialog.v2" timestamp="1593636832673">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state x="368" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.811@0.23.1440.811" timestamp="1593195473960" />
+    <state x="368" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.811@0.23.1440.811" timestamp="1593636832673" />
     <state x="368" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1593228278863" />
     <state x="368" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1593291368467" />
     <state x="368" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1593282249301" />
