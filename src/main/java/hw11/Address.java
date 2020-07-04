@@ -64,7 +64,7 @@ public class Address {
     public void printAddress() {
         System.out.println("Street: " + street + "City: "+ city +
                 "State: " + state + " Zip: " + zip);
-        if (birthdayParty){
+        if (this.birthdayParty){
             System.out.println("There is a Birthday Party today!!");
         }else {
             System.out.println("Sorry no birthday party :(");

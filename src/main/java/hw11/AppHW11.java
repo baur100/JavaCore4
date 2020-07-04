@@ -24,10 +24,10 @@ public class AppHW11 {
 
 
         Address joeLopezAddress = new Address("1000 sandy blvd",
-                "Los Angeles", "CA", 90003, true);
+                "Los Angeles", "CA", 99003, false);
 
-        BirthdayParty joeLopez = new BirthdayParty("Tom", "Cruz",
-                10, partyBasics, tomCruzAddress);
+        BirthdayParty joeLopez = new BirthdayParty("Joe", "Lopez",
+                10, partyBasics, joeLopezAddress);
 
         joeLopez.printBirthdayInfo();
 
