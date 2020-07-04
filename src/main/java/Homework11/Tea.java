@@ -3,6 +3,7 @@ package Homework11;
 public class Tea {
     private String type;
     private String[] flavor;
+    private Caffeine caffeine;
 
     public Tea(String type, String[] flavor) {
         this.type = type;
@@ -31,4 +32,12 @@ public class Tea {
                 System.out.println(v);
             }
         }
+
+    public Caffeine getCaffeine() {
+        return caffeine;
     }
+
+    public void setCaffeine(Caffeine caffeine) {
+        this.caffeine = caffeine;
+    }
+}

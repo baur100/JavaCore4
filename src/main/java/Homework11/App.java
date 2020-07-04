@@ -4,7 +4,6 @@ public class App {
     public static void main(String[] args) {
         String[] teaFlavor = {"Peach", "Strawberry", "Grapefruit", "Mango"};
         Tea green = new Tea("Green Tea", teaFlavor);
-//        peach.printTeaInfo();
 
         String[] arr = green.getFlavor();
         for (String v : arr) {
@@ -25,7 +24,7 @@ public class App {
         System.out.println("**************************");
 
         String[] type = {"Americano", "Espresso", "Latte", "Mocha"};
-        Coffee robusta = new Coffee("Robusta", type);
+        Coffee robusta = new Coffee("Robusta", type, true);
 
         String[] ar = robusta.getCoffeeType();
         for (String x : ar) {
@@ -35,12 +34,18 @@ public class App {
 
         System.out.println("**************************");
 
-        Coffee arabica = new Coffee("Arabica", type);
+        Coffee arabica = new Coffee("Arabica", type, false);
 
         String[] a = arabica.getCoffeeType();
         for (String z : a) {
             System.out.println(z);
             System.out.println(arabica.getBean());
+
         }
+
+        System.out.println("**************************");
+
+        Caffeine caff = new Caffeine(true);
+        caff.printCaffeine();
     }
 }

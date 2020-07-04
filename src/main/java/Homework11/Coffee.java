@@ -3,8 +3,9 @@ package Homework11;
 public class Coffee {
     private String bean;
     private String[] coffeeType;
+    private Caffeine caffeine;
 
-    public Coffee(String bean, String[] coffeeType) {
+    public Coffee(String bean, String[] coffeeType, boolean caffeine) {
         this.bean = bean;
         this.coffeeType = coffeeType;
     }
