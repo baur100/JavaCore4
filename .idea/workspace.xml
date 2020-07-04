@@ -19,11 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2aab89f-92dc-47bd-9743-2188c01ffd86" name="Default Changelist" comment="first commit" />
+    <list default="true" id="a2aab89f-92dc-47bd-9743-2188c01ffd86" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HM11/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HM11/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HM11/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HM11/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.App (4)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HM9.App" />
       <module name="JavaCore4" />
@@ -84,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l10.App" />
+    <configuration name="App (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HM11.App" />
       <module name="JavaCore4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l10.*" />
+          <option name="PATTERN" value="HM11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.Hw" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593799819410</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1593800137647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593800137647</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +186,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="917" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1593803902482">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="1066" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1440.816@0.23.1440.816" timestamp="1593800870369" />
+    <state x="917" y="222" key="#com.intellij.ide.util.MemberChooser/0.23.1440.821@0.23.1440.821" timestamp="1593803902482" />
+    <state width="1398" height="182" key="GridCell.Tab.0.bottom" timestamp="1593824895438">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="182" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1593824895438" />
+    <state width="1398" height="182" key="GridCell.Tab.0.center" timestamp="1593824895437">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="182" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1593824895437" />
+    <state width="1398" height="182" key="GridCell.Tab.0.left" timestamp="1593824895437">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="182" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1593824895437" />
+    <state width="1398" height="182" key="GridCell.Tab.0.right" timestamp="1593824895437">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="182" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1593824895437" />
     <state x="517" y="155" key="RollbackChangesDialog" timestamp="1593187976094">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
@@ -179,14 +220,16 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="510" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.816@0.23.1440.816" timestamp="1593799874300" />
-    <state x="500" y="233" key="git4idea.merge.GitMergeDialog" timestamp="1593799867583">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="500" y="232" key="git4idea.merge.GitMergeDialog" timestamp="1593800152585">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state x="500" y="232" key="git4idea.merge.GitMergeDialog/0.23.1440.814@0.23.1440.814" timestamp="1593800152585" />
     <state x="500" y="233" key="git4idea.merge.GitMergeDialog/0.23.1440.816@0.23.1440.816" timestamp="1593799867583" />
     <state x="500" y="234" key="git4idea.merge.GitMergeDialog/0.23.1440.821@0.23.1440.821" timestamp="1593798460006" />
-    <state x="415" y="240" key="git4idea.merge.GitPullDialog" timestamp="1593799842800">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="415" y="239" key="git4idea.merge.GitPullDialog" timestamp="1593800165236">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state x="415" y="239" key="git4idea.merge.GitPullDialog/0.23.1440.814@0.23.1440.814" timestamp="1593800165236" />
     <state x="415" y="240" key="git4idea.merge.GitPullDialog/0.23.1440.816@0.23.1440.816" timestamp="1593799842800" />
   </component>
 </project>
