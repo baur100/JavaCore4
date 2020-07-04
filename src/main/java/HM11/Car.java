@@ -1,18 +1,22 @@
 package HM11;
 
+import java.util.Arrays;
+
 public class Car {
     private String brand;
-    private String[] model;
-    Engine engineSize;
+    private String[] carModel;
+    private Engine engine;
 
     public Car(String brand, String[] model, Engine engine) {
         this.brand = brand;
-        this.model = model;
-        this.engineSize = engine;
+        this.carModel = model;
+        this.engine = engine;
     }
-public void printInfo(){
-    System.out.println("Brand is =" + brand);
-    System.out.println("Model is =" + model);
-    engineSize.printEngine();
-}
+
+    public void printCar() {
+        System.out.println("Car " +
+                "Brand= '" + brand + '\'' +
+                ", Model=" + Arrays.toString(carModel));
+        this.engine.printEngine();
+    }
 }

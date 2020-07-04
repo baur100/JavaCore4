@@ -8,9 +8,14 @@ package HM11;
 
 public class App {
     public static void main(String[] args) {
-        Engine car = new Engine(3);
-        String[] subjs = {"IS250","IS300","IS350"};
-        Car Lexus = new Car("Lexus",subjs,car );
-        Lexus.printInfo();
+        String[] carModel = {"IS250","IS300","IS350"};
+        String[] motorcycleModel = {"YS479","UC8732","KE8473"};
+        Engine myCarEngine = new Engine(3.0);
+        Car myCar = new Car("Lexus",carModel,myCarEngine);
+        Engine myMotorcycleEngine = new Engine(2.5);
+        Motorcycle myMotorcycle = new Motorcycle("Honda",motorcycleModel,myMotorcycleEngine);
+        myCar.printCar();
+        myMotorcycle.printMotorcycle();
     }
+
 }

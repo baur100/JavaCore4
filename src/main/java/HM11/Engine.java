@@ -1,24 +1,25 @@
 package HM11;
 
 public class Engine {
-    public int size;
+    private double size;
 
 
-    public Engine(int size) {
+    public Engine(double size) {
         this.size = size;
     }
 
-    public int getSize() {
+    public Engine(){}
+
+    public double getSize() {
         return size;
     }
 
-    public void setSize(int size) {
+    public void setSize(double size) {
         this.size = size;
-
     }
-
-    public void printEngine() {
-        System.out.println("Engine= " + size);
+    public void printEngine(){
+        System.out.println(
+                "Engine size= " + size);
 
     }
 }
