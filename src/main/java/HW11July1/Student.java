@@ -1,5 +1,7 @@
 package HW11July1;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Arrays;
 
 public class Student {
@@ -8,18 +10,20 @@ public class Student {
     private String[] coursesEnrolled;
     private int SemesterNumber;
     private double feeDue;
-    Courses coursesAvailable;
+    private boolean courseOptedOnline;
+    private Courses coursesAvailable;
 
 //    Non-parameterized Constructor defined explicitly as default constructor cannot be accessed with an existing constructor
     public Student(){}
 
 //    Fully Parameterized Constructor
-    public Student(String studFirstName, String studLastName, String[] coursesEnrolled, int semesterNumber, double feeDue, Courses coursesAvailable) {
+    public Student(String studFirstName, String studLastName, String[] coursesEnrolled, int semesterNumber, double feeDue, boolean courseOptedOnline, Courses coursesAvailable) {
         this.studFirstName = studFirstName;
         this.studLastName = studLastName;
         this.coursesEnrolled = coursesEnrolled;
         SemesterNumber = semesterNumber;
         this.feeDue = feeDue;
+        this.courseOptedOnline = courseOptedOnline;
         this.coursesAvailable = coursesAvailable;
     }
 
@@ -41,16 +45,25 @@ public class Student {
     public Courses getCoursesAvailable() { return coursesAvailable; }
     public void setCoursesEnrolled(Courses coursesAvailable) { this.coursesAvailable = coursesAvailable; }
 
-    public void printInfo() {
+    public void printStudInfo() {
+        int i = 0;
         System.out.println("Student{" +
                 "studFirstName='" + studFirstName + '\'' +
-                ", studLastName='" + studLastName + '\'' +
-                ", coursesEnrolled=" + Arrays.toString(coursesEnrolled) +
-                ", SemesterNumber=" + SemesterNumber +
-                ", feeDue=" + feeDue +"}" );
-        this.coursesAvailable.printInfo();
+                ", studLastName='" + studLastName );
+        System.out.println(" Courses Enrolled: ");
+        for (String studCourse : coursesEnrolled) {
+            for (String availCourse : this.coursesAvailable.getCourseNames()) {
+                if(studCourse == availCourse) {
+                    System.out.print(studCourse+", ");
+                    i++;
+                }
+            }
+        }
+        System.out.println();
+        System.out.println("SemesterNumber=" + SemesterNumber +
+                ", feeDue=" + feeDue +
+                ", courseOptedOnline = " +courseOptedOnline + ' '+'}' );
+        if(i==coursesEnrolled.length) System.out.println("All the courses enrolled by the student "+studFirstName+' '+studLastName+", are available in the prefered university "+this.coursesAvailable.getUniversityName());
     }
-
-
 
 }

@@ -4,22 +4,23 @@ import java.util.Arrays;
 
 public class Courses {
 
-    //    private String[][] courseNamesPerSemesterwithCreditPoints;
     private String[] courseNames;
     private String semesterNumber;
-    private boolean onlineCourse = true;
+    private boolean onlineCourse;
     private double courseFee;
     private double creditPoints;
+    private String universityName;
 
     public Courses(){}
 
-    public Courses(String[] courseNames, String semesterNumber, boolean onlineCourse, double courseFee, double creditPoints) {
+    public Courses(String[] courseNames, String semesterNumber, boolean onlineCourse, double courseFee, double creditPoints, String universityName) {
         //this.courseNamesPerSemesterwithCreditPoints = courseNamesPerSemesterwithCreditPoints;
         this.courseNames = courseNames;
         this.semesterNumber = semesterNumber;
         this.onlineCourse = onlineCourse;
         this.courseFee = courseFee;
         this.creditPoints = creditPoints;
+        this.universityName = universityName;
     }
 
     /*public String[][] getCourseNamesPerSemesterwithCreditPoints() { return courseNamesPerSemesterwithCreditPoints; }
@@ -41,12 +42,16 @@ public class Courses {
     public double getCreditPoints() { return creditPoints; }
     public void setCreditPoints(double creditPoints) { this.creditPoints = creditPoints; }
 
-    public void printInfo() {
-        System.out.println("Courses");
+
+    public String getUniversityName() { return universityName; }
+    public void setUniversityName(String universityName) { this.universityName = universityName; }
+
+    public void printCourseInfo() {
+        System.out.println("Courses: ");
         for (String c : this.courseNames) {
-            System.out.println(c);
+            System.out.print(c+' ');
         }
-        System.out.println("Courses{ \n" +
+        System.out.println("\n{" +
                 "semesterNumber='" + semesterNumber + '\'' +
                 ", onlineCourse=" + onlineCourse +
                 ", courseFee=" + courseFee +
