@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2aab89f-92dc-47bd-9743-2188c01ffd86" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/l11/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/l11/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/l11/App2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/l11/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/l11/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/l11/Teacher.java" afterDir="false" />
-    </list>
+    <list default="true" id="a2aab89f-92dc-47bd-9743-2188c01ffd86" name="Default Changelist" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593800137647</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1593827771675</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593827771675</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,11 +217,12 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="517" y="155" key="RollbackChangesDialog/0.23.1440.816@0.23.1440.816" timestamp="1593187976094" />
-    <state x="322" y="179" key="Vcs.Push.Dialog.v2" timestamp="1593800004221">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="322" y="181" key="Vcs.Push.Dialog.v2" timestamp="1593827778173">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="322" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1593800004221" />
     <state x="322" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1593799901967" />
+    <state x="322" y="181" key="Vcs.Push.Dialog.v2/0.23.1440.823@0.23.1440.823" timestamp="1593827778173" />
     <state x="510" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593799874300">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
