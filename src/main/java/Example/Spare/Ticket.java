@@ -1,4 +1,4 @@
-package Spare;
+package Example.Spare;
 
 public class Ticket {
     private int ticketnumber;

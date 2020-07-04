@@ -1,4 +1,4 @@
-package Spare;
+package Example.Spare;
 
 public class App {
     public static void main(String[] args) {
