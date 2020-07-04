@@ -5,7 +5,7 @@ public class Student {
     private String lastName;
     private String[] subjects;
     private String major;
-    Address address;
+    private Address address;
 
     public Student(String name, String lastName, String[] subjects, String major, Address address) {
         this.name = name;
