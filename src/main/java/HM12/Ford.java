@@ -1,24 +1,23 @@
 package HM12;
 
-public class Toyota extends JapaneseCar {
+public class Ford extends JapaneseCar {
     private String ExteriorColor;
     private String InteriorColor;
 
-    public Toyota(String brand, String model, boolean isJapaneseCar, String exteriorColor, String interiorColor) {
+    public Ford(String brand, String model, boolean isJapaneseCar, String exteriorColor, String interiorColor) {
         super(brand, model, isJapaneseCar);
         ExteriorColor = exteriorColor;
         InteriorColor = interiorColor;
     }
-
-    public void printToyota() {
-        System.out.println("Toyota:" +
+    public void printFord() {
+        System.out.println("Ford:" +
                 super.info() +
                 "\nExterior Color = " + ExteriorColor +
                 "\nInterior Color = " + InteriorColor);
         if (this.isJapaneseCar()) {
-            System.out.println("This is real Japanese car!!!!!");
+            System.out.println("This is Japanese car!!!!!");
         } else {
-            System.out.println("Not Japanese car");
+            System.out.println("This is American car!!!!!");
         }
     }
 }

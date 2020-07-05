@@ -27,15 +27,12 @@ public class Lexus extends JapaneseCar {
     }
 
     public void printLexus() {
-        System.out.println("Lexus {" +
-                " Brand='" + brand + '\'' +
-                " Model='" + model + '\'' +
-                " Exterior Color='" + ExteriorColor + '\'' +
-                " Interior Color='" + InteriorColor + '\'' +
-                '}');
-        if (this.isJapaneseCar()){
+        System.out.println("Lexus: " + super.info() +
+                "\nExterior Color = " + ExteriorColor +
+                "\nInterior Color = " + InteriorColor);
+        if (this.isJapaneseCar()) {
             System.out.println("This is real Japanese car!!!!!");
-        }else{
+        } else {
             System.out.println("Not Japanese car");
         }
     }

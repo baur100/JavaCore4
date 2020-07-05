@@ -32,8 +32,10 @@ public class JapaneseCar {
         return isJapaneseCar;
     }
 
-    public void setJapaneseCar(boolean japaneseCar) {
-        isJapaneseCar = japaneseCar;
+    public String info() {
+        return
+                "\nBrand = " + brand +
+                        "\nModel = " + model;
     }
 }
 
