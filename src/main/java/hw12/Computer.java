@@ -33,4 +33,30 @@ public class Computer {
                 '}');
     }
 
+    public void printComputer2() {
+        System.out.println("Keyboard{" +
+                "model='" + model + '\'' +
+                ", speed='" + speed + '\'' +
+                '}');
+    }
+
+    public void printComputer3() {
+        System.out.println("Monitor{" +
+                "model='" + model + '\'' +
+                ", speed='" + speed + '\'' +
+                '}');
+    }
+    public void printComputer4() {
+        System.out.println("Mouse{" +
+                "model='" + model + '\'' +
+                ", speed='" + speed + '\'' +
+                '}');
+    }
+    public void printComputer5() {
+        System.out.println("Speakers{" +
+                "model='" + model + '\'' +
+                ", speed='" + speed + '\'' +
+                '}');
+    }
+
 }
