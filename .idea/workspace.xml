@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf6487c-6417-4939-baed-f8b0f44809a5" name="Default Changelist" comment="hw10">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/HardDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw11/appMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +147,7 @@
       <updated>1593050766371</updated>
       <workItem from="1593050768903" duration="20440000" />
       <workItem from="1593479911154" duration="20969000" />
-      <workItem from="1593976186276" duration="280000" />
+      <workItem from="1593976186276" duration="6009000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1593051268718</created>
@@ -209,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593723365676</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="hw10">
+      <created>1593978301586</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593978301586</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,11 +249,13 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="212" y="23" width="1024" height="834" key="#Project_Structure/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593055026603" />
-    <state x="605" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1593661291320">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state x="605" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1593995209897">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="605" y="160" key="#com.intellij.ide.util.MemberChooser/0.23.1440.828@0.23.1440.828" timestamp="1593989986318" />
     <state x="605" y="160" key="#com.intellij.ide.util.MemberChooser/1440.-81.1920.1057/0.23.1440.830@0.23.1440.830" timestamp="1593661291320" />
     <state x="535" y="171" key="#com.intellij.ide.util.MemberChooser/1440.-81.1920.1057/0.23.1440.831@0.23.1440.831" timestamp="1593657165718" />
+    <state x="605" y="168" key="#com.intellij.ide.util.MemberChooser/1440.-81.1920.991/0.23.1440.877@0.23.1440.877" timestamp="1593995209897" />
     <state x="2175" y="333" width="460" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593636955174">
       <screen x="1440" y="-81" width="1920" height="1057" />
     </state>
@@ -331,9 +343,10 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="155" y="133" width="1200" height="612" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.833@0.23.1440.833" timestamp="1593216825031" />
-    <state x="519" y="244" key="git4idea.merge.GitMergeDialog" timestamp="1593723392688">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="519" y="244" key="git4idea.merge.GitMergeDialog" timestamp="1593978323719">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
+    <state x="519" y="244" key="git4idea.merge.GitMergeDialog/0.23.1440.828@0.23.1440.828" timestamp="1593978323719" />
     <state x="519" y="244" key="git4idea.merge.GitMergeDialog/0.23.1440.830@0.23.1440.830" timestamp="1593623811733" />
     <state x="519" y="245" key="git4idea.merge.GitMergeDialog/0.23.1440.831@0.23.1440.831" timestamp="1593621902691" />
     <state x="519" y="245" key="git4idea.merge.GitMergeDialog/0.23.1440.832@0.23.1440.832" timestamp="1593623422167" />
