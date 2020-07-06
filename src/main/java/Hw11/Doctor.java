@@ -1,31 +1,31 @@
 package Hw11;
 
-import l11.Address;
 
 public class Doctor {
     private String name;
     private String lastName;
     private String[] services;
     private String specialty;
-    Hospital hospital;
+    private Address1 address1;
 
-    public Doctor(String name, String lastName, String[] services, String specialty, Hospital hospital) {
+    public Doctor(String name, String lastName, String[] services, String specialty, Address1 address1) {
         this.name = name;
         this.lastName = lastName;
         this.services = services;
         this.specialty = specialty;
-        this.hospital = hospital;
+        this.address1 = address1;
+        ;
     }
 
     public Doctor() {
     }
 
-    public Hospital getHospital() {
-        return hospital;
+    public Address1 getAddress1() {
+        return address1;
     }
 
-    public void setHospital(Hospital hospital) {
-        this.hospital = hospital;
+    public void setAddress1(Address1 address) {
+        this.address1 = address1;
     }
 
     public String getName() {
@@ -52,6 +52,7 @@ public class Doctor {
         this.services = services;
     }
 
+
     public String getSpecialty() {
         return specialty;
     }
@@ -67,11 +68,13 @@ public class Doctor {
         for (String v : this.services) {
             System.out.println(v);
         }
-//        System.out.println(this.address);
-//        this.address.printAddress();
-        System.out.println(this.hospital.getAddressLine());
-        System.out.println(this.hospital.getCity());
-        System.out.println(this.hospital.getState());
-        System.out.println(this.hospital.getZip());
+//        System.out.println(this.address1());
+//        address1.printAddress1();
+        System.out.println(this.address1.getAddressLine1());
+        System.out.println(this.address1.getCity());
+        System.out.println(this.address1.getState());
+        System.out.println(this.address1.getZip());
+        System.out.println(this.address1.getOffice());
+
     }
 }
