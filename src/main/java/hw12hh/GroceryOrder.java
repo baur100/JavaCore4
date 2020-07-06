@@ -12,13 +12,8 @@ public class GroceryOrder extends Orders {
 
     @Override
     public String toString() {
-        return "GroceryOrder{" +
-                "orderID=" + orderID +
-                ", orderName='" + orderName + '\'' +
-                ", customer='" + customer + '\'' +
-                ", groceryItems=" + Arrays.toString(groceryItems) +
-                ", totalPrice= $" + totalPrice +
-                '}';
+        return super.toString()+
+                "\ngroceryItems=" + Arrays.toString(groceryItems);
     }
 
     public void printGrocery() {

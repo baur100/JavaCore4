@@ -47,12 +47,11 @@ public class Orders {
 
     @Override
     public String toString() {
-        return "Orders{" +
-                "orderID='" + orderID + '\'' +
-                ", orderName='" + orderName + '\'' +
-                ", customer=" + customer +
-                ", totalPrice= $" + totalPrice +
-                '}';
+        return "Orders:" +
+                "\norderID='" + orderID + '\'' +
+                "\norderName='" + orderName + '\'' +
+                "\ncustomer=" + customer +
+                "\ntotalPrice= $" + totalPrice;
     }
 
     public void printOrders() {

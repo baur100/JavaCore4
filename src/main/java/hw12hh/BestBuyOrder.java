@@ -12,13 +12,8 @@ public class BestBuyOrder extends Orders {
 
     @Override
     public String toString() {
-        return "BestBuyOrder{" +
-                "orderID=" + orderID +
-                ", orderName='" + orderName + '\'' +
-                ", customer=" + customer +
-                ", bestBuyItems=" + Arrays.toString(bestBuyItems) +
-                ", totalPrice= $" + totalPrice +
-                '}';
+        return super.toString()+
+                "\nbestBuyItems=" + Arrays.toString(bestBuyItems);
     }
 
     public void printBestBuy() {

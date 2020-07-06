@@ -12,13 +12,8 @@ public class MacysOrder extends Orders {
 
     @Override
     public String toString() {
-        return "MacysOrder{" +
-                "macysItems=" + Arrays.toString(macysItems) +
-                ", orderID=" + orderID +
-                ", orderName='" + orderName + '\'' +
-                ", customer=" + customer +
-                ", totalPrice= $" + totalPrice +
-                '}';
+        return super.toString()+
+                "\nmacysItems=" + Arrays.toString(macysItems);
     }
 
     public void printMacys() {
