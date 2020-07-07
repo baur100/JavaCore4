@@ -46,5 +46,6 @@ public class HW12MainConsumers {
         to1.calVegPrice(on1.getPrdPrice(),6,on1.getVegWeight());
         System.out.println("\n");
 
+        Apple [] app = {new Apple(), new Apple(), apple1};
     }
 }

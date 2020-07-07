@@ -1,6 +1,6 @@
 package HomeWork12July3;
 
-public class Shop {
+public abstract class Shop {
 
     protected  String brandName;
     protected String prdSkuID;
@@ -9,6 +9,7 @@ public class Shop {
     protected String prdName;
     protected String color;
 
+    protected Shop(){}
     protected Shop(String brandName, String prdSkuID, String botanicalName, double prdPrice, String prdName, String color) {
         this.brandName = brandName;
         this.prdSkuID = prdSkuID;
