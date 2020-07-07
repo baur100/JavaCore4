@@ -1,7 +1,7 @@
 package l12a;
 
-public abstract class Fruit {
-    protected String name;
+    public abstract class Fruit {
+        protected String name;
 
     public Fruit(String name) {
         this.name = name;
