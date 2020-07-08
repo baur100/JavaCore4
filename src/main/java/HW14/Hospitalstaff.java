@@ -48,10 +48,10 @@ public class Hospitalstaff {
 
     public void printinfo() {
         System.out.println("{" +
-                "id=" + id +
-                ", firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", address='" + address + '\'' +
-                '}');
+                "\nid=" + id +
+                "\nfirstname='" + firstname + '\'' +
+                "\nlastname='" + lastname + '\'' +
+                "\naddress='" + address + '\'' +
+                "\n*******************************}");
     }
 }

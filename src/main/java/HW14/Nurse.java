@@ -8,4 +8,10 @@ public class Nurse extends Hospitalstaff {
         this.nursedepartment=nursedepartment;
 
     }
+
+    public void printNurseInfo(){
+        System.out.println("Nurse Department" +"\n"+ nursedepartment);
+        super.printinfo();
+
+    }
 }

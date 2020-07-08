@@ -16,7 +16,7 @@ public class App {
 
         Nurse nursesally= new Nurse(5, "Sally", "Fields", "43 Camarillo Dr", "Dentistry");
         System.out.println("\nFirst Nurse's Information:");
-        nursemary.printinfo();
+        nursesally.printinfo();
 
 
         Janitor paul=new Janitor(13, "Paul", "Smith", "45 Adams Blvd", "First Floor");
