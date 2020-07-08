@@ -1,4 +1,4 @@
-package HW9Classes_mine;
+package HW9;
 
 public class Employee {
     public String name;
