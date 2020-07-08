@@ -1,18 +1,21 @@
 package HW12;
 
-public class ManualQA extends ItSpecialist{
+import java.util.Arrays;
+
+public class ManualQA extends ItSpecialist {
 
     protected int age;
-    //protected String [] responsibilities;
+    protected String[] responsibilities;
 
-    public ManualQA(String name, String lastName, String position, int age) {
+    public ManualQA(String name, String lastName, String position, int age, String [] responsibilities) {
         super(name, lastName, position);
-        this.age=age;
-        //this.responsibilities = responsibilities ;
+        this.age = age;
+        this.responsibilities = responsibilities;
 
     }
 
-    public ManualQA() {}
+    public ManualQA() {
+    }
 
     public int getAge() {
         return age;
@@ -22,12 +25,18 @@ public class ManualQA extends ItSpecialist{
         this.age = age;
     }
 
-    //public String[] getResponsibilities() {
-        //return responsibilities;
+    public String[] getResponsibilities() {
+        return responsibilities;
+    }
 
+        public void setResponsibilities (String[]responsibilities){
+            this.responsibilities = responsibilities;
+        }
 
-    //public void setResponsibilities(String[] responsibilities) {
-        //this.responsibilities = responsibilities;
+        public void printManuaQAInfo() {
+
+        super.printItSpecialistInfo();
+
+            System.out.println("\nManualQA: " + "\nAge: " + age + "\nResponsibilities: " + Arrays.toString(responsibilities));
+        }
 }
-
-

@@ -38,7 +38,7 @@ public class ItSpecialist {
         this.position = position;
     }
 
-    public void printInfo() {
+    public void printItSpecialistInfo() {
 
         System.out.println("My name is " + name + "\nMy last name is " + lastName + "\nMy position is " + position);
     }

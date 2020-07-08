@@ -19,4 +19,9 @@ public class AutomationQA extends ItSpecialist{
         this.city = city;
     }
 
+    public void printAutomationQAInfo() {
+        super.printItSpecialistInfo();
+        System.out.println("AutomationQA: " + "\ncity " + city);
+    }
+
 }

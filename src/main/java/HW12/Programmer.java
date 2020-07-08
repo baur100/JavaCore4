@@ -20,5 +20,10 @@ public class Programmer extends ItSpecialist{
 
         this.salary = salary;
     }
+
+    public void printProgrammerInfo() {
+        super.printItSpecialistInfo();
+        System.out.println("Programmer: " + "salary: " + salary);
+    }
 }
 
