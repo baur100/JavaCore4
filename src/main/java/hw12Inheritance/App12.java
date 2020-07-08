@@ -15,13 +15,8 @@ public class App12 {
         manPerfume.printManPerfums();
         womanPerfume.printWomanPerfumes();
         grocery.printGrocery();
-
-
     }
-
 }
-
-
 
 //   1. Create a super class and 3 child classes
 //create 2 object of each class (including superclass - don't make it abstract)
