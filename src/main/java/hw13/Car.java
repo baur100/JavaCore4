@@ -13,9 +13,13 @@ public class Car implements Speed {
 
     @Override
     public int getSpeed() {
-        System.out.println(model);
-        System.out.println(year);
-        return 0;
+
+        if (model.equals("XXX")) {
+            System.out.println("right model");
+        }else
+        System.out.println("wrong model");
+
+       return 0;
 
     }
 
