@@ -11,6 +11,6 @@ public class App {
         Address doraAddress = new Address("12 Mad st","Swirl city","NJ",11445,true);
         Teacher doris = new Teacher(doraName,doraAddress,"Biology");
 
-        Person[] teachersAndStudents = {anna, doris};
+//        Person[] teachersAndStudents = {anna, doris};
     }
 }
