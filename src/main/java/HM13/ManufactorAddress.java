@@ -44,7 +44,7 @@ public class ManufactorAddress {
         System.out.println("Manufactor Address: " +
                 "\nStreet = " + street +
                 "\nCity = " + city +
-                "\nState= " + country);
+                "\nCountry = " + country);
 
     }
 }
