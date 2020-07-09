@@ -13,11 +13,10 @@ public class Dancer extends Person {
         }
 
         public void printDancer() {
-            System.out.println("Dancer{" +
-                    "name='" + name + '\'' +
-                    ", lastName='" + lastName + '\'' +
-                    ", dance =" + dance +
-                    " , teacher " + teacher +   '}');
+            System.out.println("This dancer's name is " + name + " " + lastName + " age  " + age +
+                    "\nFavorite dance style is " + dance +
+                    "\nTeacher's name is " + teacher +
+                    "\n " + name + " " + lastName + "' address is ");
             this.address.printAddress();
 
         }

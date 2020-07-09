@@ -15,13 +15,14 @@ public class ProfessionalDancer extends Dancer {
     }
 
     public void printProfessionalDancer() {
-        System.out.println("Dancer's " + " name is " + name + '\'' +
-                " lastName is " + lastName + '\'' +
-                " This dancer is " + age + " years old" + '\'' +
-                " dance " + Arrays.toString(danceStyle) + '\'' +
-                " The teacher's name is  " + this.teacher + '\'' +
-                "The dancer's experience level is " + experience);
+        System.out.println("This dancer's " + " name is " + name + " " + lastName +
+                "\nThis dancer is " + age + " years old" +
+                "\n " + name + " " + lastName + " is successful in these dance styles " + Arrays.toString(danceStyle) + '\'' +
+                "\nThe dancer's address is ");
         this.address.printAddress();
+        System.out.println("\nThe teacher's name is  " + this.teacher +
+                "\nThe dancer's experience level is " + experience);
+
     }
 }
 

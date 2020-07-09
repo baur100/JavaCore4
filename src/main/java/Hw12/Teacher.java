@@ -16,7 +16,7 @@ public class Teacher extends Person {
     }
 
     public void printTeacher() {
-        System.out.println("Teacher's name  is " + this.name + " " + lastName);
+        System.out.println("Teacher's name  is " + name + " " + lastName);
         System.out.println("\nThis teacher specialty is  " + Arrays.toString(danceClass));
         System.out.println("\nThis teacher has been " + certification + " for teaching these classes");
 //        address.printTeacher();
