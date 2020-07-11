@@ -35,7 +35,7 @@ public class AppCustom {
             System.out.println(a.getName());
             System.out.println(a.getYearOfFound());
         }
-        System.out.println("**********FOREACH*************");
+        System.out.println("**********FOREACH************");
         for(AirCompany a : airCompany){
             System.out.println(a.getName());
             System.out.println(a.getYearOfFound());
