@@ -2,9 +2,9 @@ package HW13;
 
 public class Juice implements Drinks {
 
-    public String orangeJuice;
-    public String appleJuice;
-    public String tomatoJuice;
+    private String orangeJuice;
+    private String appleJuice;
+    private String tomatoJuice;
 
     public Juice(String orangeJuice, String appleJuice, String tomatoJuice) {
         this.orangeJuice = orangeJuice;
