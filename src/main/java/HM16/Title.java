@@ -1,0 +1,9 @@
+package HM16;
+
+public enum Title {
+    OSTEOPATHY,
+    ALLERGIST,
+    CARDIOLOGIST,
+    DERMATOLOGIST,
+    GASTROENTEROLOGIST
+}

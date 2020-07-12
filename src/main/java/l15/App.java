@@ -5,31 +5,31 @@ import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
-        HashMap<String, String> map = new HashMap<String, String>();
-        map.put("Germany","Berlin");
-        map.put("Austria","Vienna");
-        map.put("Great Britain","London");
-        map.put("India","Delhi");
-
-        map.put("XXXX","London");
-        map.put("XXXX","Berlin");
-
-        System.out.println(map);
-        System.out.println(map.get("India"));
-
-        HashMap<Integer,String>arrayListLikeStructure = new HashMap<Integer, String>();
-        arrayListLikeStructure.put(0,"Green");
-        arrayListLikeStructure.put(1,"Yellow");
-        arrayListLikeStructure.put(2,"Grey");
-        System.out.println(arrayListLikeStructure.get(2));
-
-        map.remove("XXXX");
-        System.out.println(map);
-
-        map.replace("Germany","Bonn");
-        System.out.println(map);
-
-        System.out.println(map.size());
+//        HashMap<String, String> map = new HashMap<String, String>();
+//        map.put("Germany","Berlin");
+//        map.put("Austria","Vienna");
+//        map.put("Great Britain","London");
+//        map.put("India","Delhi");
+//
+//        map.put("XXXX","London");
+//        map.put("XXXX","Berlin");
+//
+//        System.out.println(map);
+//        System.out.println(map.get("India"));
+//
+//        HashMap<Integer,String>arrayListLikeStructure = new HashMap<Integer, String>();
+//        arrayListLikeStructure.put(0,"Green");
+//        arrayListLikeStructure.put(1,"Yellow");
+//        arrayListLikeStructure.put(2,"Grey");
+//        System.out.println(arrayListLikeStructure.get(2));
+//
+//        map.remove("XXXX");
+//        System.out.println(map);
+//
+//        map.replace("Germany","Bonn");
+//        System.out.println(map);
+//
+//        System.out.println(map.size());
 
         Map<String,String> fruits = new HashMap<String,String>();
         fruits.put("Apple","Sweet");
