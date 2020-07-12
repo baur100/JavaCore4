@@ -1,4 +1,4 @@
-package Lesson7hw;
+package hw7hh;
 
 import java.util.Arrays;
 
