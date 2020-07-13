@@ -1,6 +1,6 @@
 package l14;
 
-import xxx.Doctor;
+
 
 public class App2 {
     public static void main(String[] args) {
