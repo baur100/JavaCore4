@@ -112,6 +112,18 @@ public class App {
         whodriveswhat.replace(mansion, nissan);
         System.out.println(whodriveswhat);
 
+        //List of all the homes with the cars inside
+        System.out.println("\nFinal list of homes with their cars");
+
+        for (Map.Entry<Homes, Cars> x: whodriveswhat.entrySet()){
+            Homes h=x.getKey();
+            Cars c=x.getValue();
+            System.out.println(h.getType()+ "=>" + c.getBrand());
+
+
+
+        }
+
 
 
 
