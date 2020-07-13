@@ -1,12 +1,13 @@
 package HW16;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class App {
     public static void main(String[] args) {
-        ArrayList<String> words=new ArrayList<String>();
-        ArrayList<Integer> amounts=new ArrayList<Integer>();
-        ArrayList<Stores>store=new ArrayList<Stores>();
+        List<String> words=new ArrayList<String>();
+        List<Integer> amounts=new ArrayList<Integer>();
+        List<Stores>store=new ArrayList<Stores>();
 
 
         System.out.println("\n************************************");
