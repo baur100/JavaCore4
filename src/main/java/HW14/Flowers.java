@@ -3,8 +3,8 @@ package HW14;
 public class Flowers {
 private String FlowerName;
 
-public Flowers(String flowername){
-    this.FlowerName = flowername;
+public Flowers(String flowerName){
+    this.FlowerName = flowerName;
 }
 
 public String getFlowerName(){
