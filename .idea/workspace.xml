@@ -19,12 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaf6487c-6417-4939-baed-f8b0f44809a5" name="Default Changelist" comment="hw14">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw15/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw15/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw15/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw15/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw15/Model.java" afterDir="false" />
+    <list default="true" id="aaf6487c-6417-4939-baed-f8b0f44809a5" name="Default Changelist" comment="hw15">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw16/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw16/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw16/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw16/InsuranceCompanies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw16/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -69,7 +69,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Hospital">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw13.App" />
       <module name="JavaCore4" />
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l13.App2" />
+    <configuration name="Hospital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw16.Hospital" />
       <module name="JavaCore4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l13.*" />
+          <option name="PATTERN" value="hw16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hospital" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.mainApp" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App2" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,7 @@
       <workItem from="1594267513300" duration="4699000" />
       <workItem from="1594276512812" duration="740000" />
       <workItem from="1594584363127" duration="5197000" />
-      <workItem from="1594608400521" duration="324000" />
+      <workItem from="1594608400521" duration="4684000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1593051268718</created>
@@ -277,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594275911138</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hw15">
+      <created>1594621199125</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1594621199125</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,17 +311,19 @@
     <MESSAGE value="hw12" />
     <MESSAGE value="hw13" />
     <MESSAGE value="hw14" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw14" />
+    <MESSAGE value="hw15" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw15" />
   </component>
   <component name="WindowStateProjectService">
     <state x="212" y="23" width="1024" height="834" key="#Project_Structure" timestamp="1593055026603">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="212" y="23" width="1024" height="834" key="#Project_Structure/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593055026603" />
-    <state x="605" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1594608101615">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state x="605" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1594686210952">
+      <screen x="0" y="23" width="1440" height="836" />
     </state>
     <state x="605" y="160" key="#com.intellij.ide.util.MemberChooser/0.23.1440.828@0.23.1440.828" timestamp="1593989986318" />
+    <state x="605" y="162" key="#com.intellij.ide.util.MemberChooser/0.23.1440.836@0.23.1440.836" timestamp="1594686210952" />
     <state x="605" y="162" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1594608101615" />
     <state x="605" y="160" key="#com.intellij.ide.util.MemberChooser/1440.-81.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1594258370432" />
     <state x="605" y="160" key="#com.intellij.ide.util.MemberChooser/1440.-81.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1594273987113" />
@@ -330,6 +339,10 @@
       <screen x="1440" y="-81" width="1920" height="1057" />
     </state>
     <state x="2175" y="333" width="460" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1440.-81.1920.1057/0.23.1440.830@1440.-81.1920.1057" timestamp="1593636955174" />
+    <state x="442" y="190" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594674340183">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state x="442" y="190" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.839@0.23.1440.839" timestamp="1594674340183" />
     <state width="1344" height="200" key="GridCell.Tab.0.bottom" timestamp="1594608326364">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -438,11 +451,12 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="365" y="218" key="MultipleFileMergeDialog/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593051302330" />
-    <state x="324" y="188" key="Vcs.Push.Dialog.v2" timestamp="1594275919309">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="324" y="190" key="Vcs.Push.Dialog.v2" timestamp="1594621204592">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="324" y="188" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1594016213807" />
     <state x="324" y="190" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1593403098728" />
+    <state x="324" y="190" key="Vcs.Push.Dialog.v2/0.23.1440.837@0.23.1440.837" timestamp="1594621204592" />
     <state x="324" y="188" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1594259137204" />
     <state x="324" y="188" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1594271535428" />
     <state x="324" y="188" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1594275919309" />
@@ -481,10 +495,11 @@
     <state x="428" y="239" key="git4idea.merge.GitPullDialog/1440.-81.1920.1057/0.23.1440.832@0.23.1440.832" timestamp="1593227857460" />
     <state x="428" y="239" key="git4idea.merge.GitPullDialog/1440.-81.1920.1057/0.23.1440.833@0.23.1440.833" timestamp="1593224700600" />
     <state x="428" y="239" key="git4idea.merge.GitPullDialog/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593054090263" />
-    <state x="389" y="181" width="670" height="680" key="search.everywhere.popup" timestamp="1594603483235">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state x="389" y="181" width="670" height="679" key="search.everywhere.popup" timestamp="1594682813013">
+      <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="389" y="180" width="670" height="676" key="search.everywhere.popup/0.23.1440.833@0.23.1440.833" timestamp="1593208399346" />
+    <state x="389" y="181" width="670" height="679" key="search.everywhere.popup/0.23.1440.835@0.23.1440.835" timestamp="1594682813013" />
     <state x="389" y="181" width="670" height="680" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1594603483235" />
     <state x="389" y="179" width="670" height="671" key="search.everywhere.popup/1440.-81.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1594258933584" />
   </component>
