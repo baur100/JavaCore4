@@ -25,18 +25,21 @@ public class Hospital {
         Doctor number2 = new Doctor("Alex", "Marvin", Position.SURGEON, InsuranceCompanies.BLU_CROSS);
         Doctor number3 = new Doctor( "Ana", "Silva", Position.NURSE, InsuranceCompanies.WALLMART);
 
-        List<Doctor> doctors = new ArrayList<>();
-        doctors.add(number1);
-        doctors.add(number2);
-        doctors.add(number3);
 
+        List<Doctor> doctorsList = new ArrayList<>();
+        doctorsList.add(number1);
+        doctorsList.add(number2);
+        doctorsList.add(number3);
+
+        System.out.println(doctorsList);
 
         System.out.println(acceptedInsuranses);
         System.out.println(rooms);
-        System.out.println();
+        for (Doctor v: doctorsList) {
+           System.out.println(v);
 
+        }
     }
-
 
 }
 
