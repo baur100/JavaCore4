@@ -52,7 +52,7 @@ public class Doctor {
 
     public void doctorPrint() {
 
-        System.out.println(this.name+this.lastName+this.position+this.insuranceAccepted);
+        System.out.println(this.name+this.lastName+this.position+ " " +this.insuranceAccepted);
 
     }
 
