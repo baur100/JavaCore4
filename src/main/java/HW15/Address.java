@@ -47,7 +47,7 @@ public class Address {
         this.zip = zip;
     }
 
-    public void printAddress (){
-        System.out.println(addressLine1 + ", " + city + ", " + state + " " + zip);
+    public String printAddress (){
+        return addressLine1 + ", " + city + ", " + state + " " + zip;
     }
 }

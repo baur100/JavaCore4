@@ -27,8 +27,8 @@ public class Employee {
         this.lastName = lastName;
     }
 
-    public void printInfo (){
-        System.out.println(name + " " + lastName);
+    public String printEmployee (){
+        return name + " " + lastName;
 
     }
 

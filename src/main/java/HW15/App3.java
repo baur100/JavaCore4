@@ -25,7 +25,7 @@ public class App3 {
 
         info.put(putin, kremlin);
 
-        info.put(new Employee(), new Address());
+        info.put(new Employee("Brad", "Pitt"), new Address("9150 Wilshire Blvd", "Beverly Hills", "CA", 90212));
 
         System.out.println(info.size());
 
@@ -41,6 +41,26 @@ public class App3 {
 
         System.out.println(info.size());
 
-        // Unfortunately I couldn't find a way to iterate though this kind of HashMaps or to get info from it
+        System.out.println("**********");
+
+        for (Map.Entry <Employee, Address> entry: info.entrySet()) {
+//            Employee employee = entry.getKey();  // or use these 2 lines and
+//            Address address = entry.getValue();  // System.out.println(employee.printEmployee() + ": " + address.printAddress());
+            System.out.println(entry.getKey().printEmployee() + ": " + entry.getValue().printAddress());
+        }
+
+        System.out.println("**********");
+
+        for (Map.Entry <Employee, Address> entry: info.entrySet()) {
+            System.out.println(entry.getKey().printEmployee());
+        }
+
+        System.out.println("**********");
+
+        for (Map.Entry <Employee, Address> entry: info.entrySet()) {
+            System.out.println(entry.getValue().printAddress());
+        }
+
+        System.out.println("**********");
     }
 }
