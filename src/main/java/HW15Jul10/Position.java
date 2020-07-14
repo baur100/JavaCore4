@@ -1,0 +1,10 @@
+package HW15Jul10;
+
+public enum Position {
+    PRESIDENT,
+    PRIME_MINISTER,
+    FOREIGN_MINISTER,
+    DEFENCE_MINISTER,
+    GOVERNOR,
+    CHIEF_MINISTER,
+}
