@@ -34,6 +34,10 @@ public class Hospital {
         doctorsList.add(number3);
 
 
+        for(int i =0; i<doctorsList.size(); i++){
+            doctorsList.get(i).doctorPrint();
+        }
+
         number1.doctorPrint();
         number2.doctorPrint();
         number3.doctorPrint();
@@ -43,8 +47,7 @@ public class Hospital {
 //
 //        doctorsList.size();
 //
-//        for (Doctor v: doctorsList) {
-//           System.out.println(v); }
+
    }
 
     }
