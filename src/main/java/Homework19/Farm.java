@@ -1,7 +1,5 @@
 package Homework19;
 
-import Homework16.Doctor;
-
 import java.util.HashMap;
 import java.util.List;
 
