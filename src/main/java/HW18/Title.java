@@ -1,0 +1,9 @@
+package HW18;
+
+public enum Title {
+    DENTIST,
+    ALLERGISTS,
+    OPHTHALMOLOGISTS,
+    CARDIOLOGISTS,
+    PSYCHIATRISTS
+}

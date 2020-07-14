@@ -37,8 +37,10 @@ public class App {
         country.put(new Country("Austria", "Vienna"), new President("Alexander Van der Bellen"));
         country.put(new Country("Poland", "Warsaw"), new President("Andrzej Duda"));
 
-        for (Country key: country.keySet()) {
-            System.out.println(key.getCapital());
+        for (Map.Entry<Country,President> x : country.entrySet()) {
+            Country c =x.getKey();
+            President p = x.getValue();
+            System.out.println(c.getCapital()+ "=> " +c.getName() + "=>" +p.getName());
         }
 
 
