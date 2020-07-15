@@ -24,4 +24,11 @@ public class Food {
   public void setYearOfMade(int yearOfMade) {
     this.yearOfMade = yearOfMade;
   }
+
+  @Override
+  public String toString() {
+    return "************************"+
+        "\nFood Name='" + foodName + '\'' +
+        ", Year Of Made=" + yearOfMade;
+  }
 }

@@ -12,6 +12,8 @@ public class HasMapApp2 {
     list.put("USA", "New york");
     System.out.println(list);
     list.replace("USA", "Washington DC");
+
+    //How to print out keys + values
     for (String i:list.keySet()
     ) {
       System.out.println("Country: " +i +", Capital City: "+list.get(i));

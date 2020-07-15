@@ -16,6 +16,8 @@ public class HashMapApp {
     System.out.println(menu1);
     System.out.println(menu1.size());
     menu1.put(5, "Kids size hot chocolate");
+
+//How to print out keys + values
     for (int i :menu1.keySet()) {
       System.out.println("#"+i + " Menu: "+menu1.get(i));
     }
