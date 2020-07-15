@@ -1,6 +1,5 @@
 package hw18;
 
-import l14.Person;
 
 import javax.print.Doc;
 import java.util.ArrayList;
@@ -69,8 +68,6 @@ public class AppHW18 {
         System.out.println("**************");
         System.out.println(rooms);
         System.out.println("**************");
-
-
 
         }
         catch (Exception e){

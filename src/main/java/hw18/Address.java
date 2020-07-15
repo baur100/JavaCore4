@@ -46,8 +46,8 @@ public class Address {
     }
 
     public void printAddress() {
-        System.out.println("Street: " + streetAddress + "City: " + town +
-                "State: " + state + " Zip: " + zip);
+        System.out.println("Street: " + streetAddress + " " + town +
+                " " + state + " " + zip);
 
     }
 }
