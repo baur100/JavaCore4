@@ -30,11 +30,5 @@ public class App {
         Hospital StFrancis = new Hospital("StFrancis",a1,doctors,rooms,insurance);
         StFrancis.PrintDoctor();
 
-
-
-
-
-
-
     }
 }
