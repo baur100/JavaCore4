@@ -18,4 +18,17 @@ public class Address {
         this.zip = zip;
         this.doctors = doctors;
     }
+
+
+public void printAddress (){
+
+        System.out.println("Address{" +
+                "streetAddress='" + streetAddress + '\'' +
+                ", town='" + town + '\'' +
+                ", state='" + state + '\'' +
+                ", zip=" + zip +
+                ", doctors=" + doctors +
+                '}');
+
+    }
 }
