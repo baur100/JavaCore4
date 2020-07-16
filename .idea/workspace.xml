@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaf6487c-6417-4939-baed-f8b0f44809a5" name="Default Changelist" comment="hw16">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw16/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw17/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw17/AgreeCultural.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw17/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw17/Cattle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw17/Farm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw16/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw16/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw16/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw16/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw16/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw16/Hospital.java" afterDir="false" />
-    </list>
+    <list default="true" id="aaf6487c-6417-4939-baed-f8b0f44809a5" name="Default Changelist" comment="hw17" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +159,7 @@
       <workItem from="1594608400521" duration="8257000" />
       <workItem from="1594692263462" duration="4178000" />
       <workItem from="1594745268735" duration="396000" />
-      <workItem from="1594773307416" duration="10377000" />
+      <workItem from="1594773307416" duration="10945000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1593051268718</created>
@@ -333,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594704739632</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="hw17">
+      <created>1594877551569</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1594877551569</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +358,8 @@
     <MESSAGE value="hw14" />
     <MESSAGE value="hw15" />
     <MESSAGE value="hw16" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw16" />
+    <MESSAGE value="hw17" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw17" />
   </component>
   <component name="WindowStateProjectService">
     <state x="212" y="23" width="1024" height="834" key="#Project_Structure" timestamp="1593055026603">
@@ -524,8 +521,8 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="365" y="218" key="MultipleFileMergeDialog/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593051302330" />
-    <state x="324" y="188" key="Vcs.Push.Dialog.v2" timestamp="1594704746363">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="1872" y="130" key="Vcs.Push.Dialog.v2" timestamp="1594877565800">
+      <screen x="1440" y="-81" width="1920" height="1057" />
     </state>
     <state x="324" y="188" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1594704746363" />
     <state x="324" y="190" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1594687195838" />
@@ -534,7 +531,7 @@
     <state x="324" y="188" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1594271535428" />
     <state x="324" y="188" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1594694563465" />
     <state x="324" y="188" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.829@0.23.1440.829" timestamp="1594696354015" />
-    <state x="1872" y="130" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.830@1440.-81.1920.1057" timestamp="1593645174274" />
+    <state x="1872" y="130" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.830@1440.-81.1920.1057" timestamp="1594877565800" />
     <state x="324" y="190" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593054119416" />
     <state x="324" y="190" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.835@0.23.1440.835" timestamp="1593052354820" />
     <state x="324" y="198" key="Vcs.Push.Dialog.v2/1440.-81.1920.991/0.23.1440.877@0.23.1440.877" timestamp="1593996676199" />
