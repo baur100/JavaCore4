@@ -1,4 +1,4 @@
-package HW18;
+package HW19;
 
 public class Agricultural {
     private String nameOfCulture;

@@ -1,7 +1,5 @@
 package HW19;
 
-import HW18.Agricultural;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
