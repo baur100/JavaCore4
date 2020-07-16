@@ -1,7 +1,7 @@
 package Hw14;
 
 public class Number {
-    public int bb;
+    private int bb;
 
     public Number(int bb) {
         this.bb = bb;
