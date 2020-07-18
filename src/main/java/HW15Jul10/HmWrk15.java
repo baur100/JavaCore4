@@ -1,8 +1,5 @@
 package HW15Jul10;
 
-import Class15Jul10.Person;
-
-import javax.security.auth.Subject;
 import java.util.HashMap;
 import java.util.Map;
 
