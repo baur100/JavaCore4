@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f59cef6e-ed59-445c-943e-7d2d92dd185c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw17/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +30,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1dnLbhSrNLOw3s5nnZikftVtn6J" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -298,6 +298,14 @@
     </state>
     <state x="840" y="290" key="git4idea.merge.GitMergeDialog/-1920.-657.1920.1057/0.23.1680.944@0.23.1680.944" timestamp="1593491288670" />
     <state x="840" y="290" key="git4idea.merge.GitMergeDialog/0.23.1680.944@0.23.1680.944" timestamp="1593225108316" />
+    <state x="540" y="292" key="git4idea.merge.GitPullDialog" timestamp="1595096016060">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="540" y="292" key="git4idea.merge.GitPullDialog/1680.-126.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1595096016060" />
+    <state x="668" y="402" key="git4idea.ui.GitStashDialog" timestamp="1595095989472">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="668" y="402" key="git4idea.ui.GitStashDialog/1680.-126.1920.1057/0.23.1680.947@0.23.1680.947" timestamp="1595095989472" />
     <state x="-1295" y="-422" width="670" height="676" key="search.everywhere.popup" timestamp="1593836607500">
       <screen x="-1920" y="-657" width="1920" height="1057" />
     </state>
