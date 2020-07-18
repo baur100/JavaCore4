@@ -1,0 +1,7 @@
+.cl1 {color:green}
+.md1 {font-family: arial}
+.md1.cl1 {background-color: pink}
+h2 {
+   background-color: yellow;
+}
+#xx {color: red;}
