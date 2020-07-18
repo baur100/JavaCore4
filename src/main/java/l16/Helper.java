@@ -4,6 +4,8 @@ import org.apache.commons.lang3.RandomStringUtils;
 
 public class Helper {
     private static int  ss=10;
+    private static Helper RandomStringUtils;
+
     public static String random(){
         return "A random string " + getFive() + " " + ss;
     }
@@ -15,7 +17,7 @@ public class Helper {
             int length = 10;
             boolean useLetters = true;
             boolean useNumbers = false;
-            String generatedString = RandomStringUtils.random(length, useLetters, useNumbers);
+            String generatedString = null;/*RalndomStringUtils.random(length, useLetters, useNumbers);*/
 
             return generatedString;
     }
