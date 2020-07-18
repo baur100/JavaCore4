@@ -5,7 +5,7 @@ public enum Cattle {
     COWS,
     SHEEPS,
     PIGS,
-    CHICHENS,
+    CHICKENS,
     TURCKEYS
 
 }
