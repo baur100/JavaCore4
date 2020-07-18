@@ -8,10 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleApp {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","chromedriver");
         WebDriver chromeDriver = new ChromeDriver();
         chromeDriver.get("https://google.com");
-        Thread.sleep(5);
 
         WebElement searchField = chromeDriver.findElement(By.cssSelector("[name='q]"));
         searchField.sendKeys("JAVA");

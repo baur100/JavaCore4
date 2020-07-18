@@ -76,7 +76,7 @@ public class TestTicketCalculation {
 
     @Test
 //    positive3
-    public void testTicketCalculation_adult_priceIs50percent_Pstv(){
+    public void testTicketCalculation_adult_priceIsFull_Pstv(){
 //        Arrange
         TicketPrice ticketPrice = new TicketPrice(1000);
 
@@ -90,7 +90,7 @@ public class TestTicketCalculation {
 
     @Test
 //    negative3
-    public void testTicketCalculation_adult_priceIs50percent_Neg(){
+    public void testTicketCalculation_adult_priceIsFull_Neg(){
 //        Arrange
         TicketPrice ticketPrice = new TicketPrice(1000);
 
@@ -104,7 +104,7 @@ public class TestTicketCalculation {
 
     @Test
 //    positive4
-    public void testTicketCalculation_seniors_priceIs50percent_Pstv(){
+    public void testTicketCalculation_seniors_priceIs80percent_Pstv(){
 //        Arrange
         TicketPrice ticketPrice = new TicketPrice(1000);
 
@@ -118,7 +118,7 @@ public class TestTicketCalculation {
 
     @Test
 //    negative4
-    public void testTicketCalculation_seniors_priceIs50percent_Neg(){
+    public void testTicketCalculation_seniors_priceIs80percent_Neg(){
 //        Arrange
         TicketPrice ticketPrice = new TicketPrice(1000);
 
