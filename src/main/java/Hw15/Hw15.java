@@ -1,7 +1,11 @@
 package Hw15;
 
 
+import Hw14.Mushroom;
+
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Hw15 {
@@ -25,7 +29,7 @@ public class Hw15 {
         map.put("Jamaica", "Kingston");
         map.put("Israel", "Jerusalem");
 
-        System.out.println ("_____________HashMap- <String,String>__________________");
+        System.out.println("_____________HashMap- <String,String>__________________");
         System.out.println("Method Put");
         System.out.println(map);
 
@@ -64,7 +68,7 @@ public class Hw15 {
         mm.put(4, "Pungent");
 
 
-        System.out.println ("_______________HashMap<Integer, String>_________________");
+        System.out.println("_______________HashMap<Integer, String>_________________");
         System.out.println("Method Put");
         System.out.println(mm);
         System.out.println("________________________________________________________");
@@ -105,7 +109,7 @@ public class Hw15 {
         veggies.put("Tomato", "Red");
 
 
-        System.out.println ("_______________HashMap<String, String>_________________");
+        System.out.println("_______________HashMap<String, String>_________________");
         System.out.println("Method Put");
         System.out.println(veggies);
         System.out.println("________________________________________________________");
@@ -159,7 +163,7 @@ public class Hw15 {
         Occupation teacher = new Occupation("teacher", Education.MASTERS);
 
 
-       Map<Person1, Occupation> dd = new HashMap<Person1, Occupation>();
+        Map<Person1, Occupation> dd = new HashMap<Person1, Occupation>();
         dd.put(peter, singer);
         dd.put(jane, designer);
         dd.put(jasmin, model);
@@ -169,9 +173,9 @@ public class Hw15 {
 
         System.out.println("_______HashMap custom classes <class1, class2>__________________");
         System.out.println("Method Put");
-        for (Map.Entry<Person1, Occupation> x:dd.entrySet() ) {
+        for (Map.Entry<Person1, Occupation> x : dd.entrySet()) {
             Person1 person1 = x.getKey();
-            Occupation occupation = x.getValue() ;
+            Occupation occupation = x.getValue();
             System.out.println(person1.toString() + "   " + occupation.toString());
         }
 
@@ -202,17 +206,36 @@ public class Hw15 {
         System.out.println("_______________________________");
 
         System.out.println("Method forEach");
-        for (Map.Entry<Person1, Occupation> x:dd.entrySet() ) {
+        for (Map.Entry<Person1, Occupation> x : dd.entrySet()) {
             Person1 person1 = x.getKey();
-            Occupation occupation = x.getValue() ;
+            Occupation occupation = x.getValue();
             System.out.println(person1.toString() + "   " + occupation.toString());
         }
 
         System.out.println("_______________________________");
 
+//        Create 2 Enums
+//        Create 2 classes
+//                - first will have field with type enum
+//        - second - field as ArrayList<enum.type>
+
+        // Calling values()
+        Color arr[] = Color.values();
+
+        // enum with loop
+        for (Color v : arr) {
+            System.out.println(v);
+        }
+
+        ArrayList<Car> car = new ArrayList<>();
+        car.add (new Car ("Porsche", "Cayenne", Color.RED, 2020));
+        car.add (new Car ("Alpha Romeo", "Stelvio", Color.BLUE, 2020));
+        car.add (new Car ("Maserati", "Levante", Color.PURPLE, 2020));
+        System.out.println (car.toString());
 
     }
 }
+
 
 
 

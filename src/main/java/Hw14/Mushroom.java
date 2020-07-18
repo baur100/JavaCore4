@@ -11,7 +11,7 @@ public class Mushroom {
     @Override
 
     public String toString() {
-        return "Mushroom:" + " " + name;
+        return "\nMushroom:" + " " + name ;
     }
 }
 
