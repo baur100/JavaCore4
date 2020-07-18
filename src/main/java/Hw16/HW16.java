@@ -1,5 +1,8 @@
 package Hw16;
 
+import Hw14.Mushroom;
+
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class HW16 {
@@ -28,6 +31,12 @@ public class HW16 {
 //        - Printout Doctors and their titles; public void printDoctors();
 //        - Printout rooms
 
+
+        ArrayList<Doctor> doctor = new ArrayList<Doctor>();
+        doctor.add (new Doctor("Anna", "Smith", "Surgeon", "Aetna"));
+        doctor.add(new Doctor("Michael", "Schwartz", "Physician", "BCBS"));
+        doctor.add(new Doctor("Howard", "Lenhoff", "Cardiologist", "UnitedHealthCare"));
+        doctor.add(new Doctor("Elsa", "Reimer", "Dentist", "Cygna"));
 
 
 
