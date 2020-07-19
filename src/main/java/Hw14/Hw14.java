@@ -21,17 +21,17 @@ public class Hw14 {
         garden.add("Pear");
 
         System.out.println("Method Add");
-        System.out.println(garden);
+        System.out.println(garden.toString());
         System.out.println("_______________________________________________________");
 
         garden.remove(0);
         System.out.println("Method Remove");
-        System.out.println(garden);
+        System.out.println(garden.toString());
         System.out.println("_______________________________________________________");
 
         System.out.println("Method Set");
         garden.set(3, "Grapes");
-        System.out.println(garden);
+        System.out.println(garden.toString());
         System.out.println("_______________________________________________________");
 
         System.out.println("Method Get");
@@ -55,7 +55,7 @@ public class Hw14 {
 
         System.out.println("Method removeAll");
         garden.removeAll(garden);
-        System.out.println(garden);
+        System.out.println(garden.toString());
         System.out.println("_______________________________________________________");
 
 
@@ -75,18 +75,18 @@ public class Hw14 {
         number.add(15);
 
         System.out.println("Method Add");
-        System.out.println(garden);
+        System.out.println(garden.toString());
         System.out.println("_______________________________________________________");
 
 
         number.remove(5);
         System.out.println("Method Remove");
-        System.out.println(garden);
+        System.out.println(garden.toString());
         System.out.println("_______________________________________________________");
 
         number.set(8, 83);
         System.out.println("Method Set");
-        System.out.println(garden);
+        System.out.println(garden.toString());
         System.out.println("_______________________________________________________");
 
         int tt;
@@ -110,12 +110,12 @@ public class Hw14 {
         mushroom.add (new Mushroom("Morel"));
 
         System.out.println("Method Add");
-        System.out.println (mushroom);
+        System.out.println (mushroom.toString());
         System.out.println("_______________________________________________________");
 
         mushroom.set(3, new Mushroom ("Maitake"));
         System.out.println("Method Set");
-        System.out.println (mushroom);
+        System.out.println (mushroom.toString());
         System.out.println("_______________________________________________________");
 
         System.out.println("Method Remove");

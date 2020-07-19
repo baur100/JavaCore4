@@ -44,4 +44,12 @@ public class Address {
     public void setZip(int zip) {
         this.zip = zip;
     }
+
+    public String AddressPrint() {
+        return "Address: " +
+                "\nStreet: " + streetAddress +
+                "\nTown: " + town +
+                "\nState: " + state + ", zip: " + zip;
+
+    }
 }

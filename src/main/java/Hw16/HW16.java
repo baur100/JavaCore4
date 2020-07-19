@@ -63,10 +63,11 @@ public class HW16 {
 
         Hospital childrensMercy= new Hospital ("Children's Mercy Hospital", childrensMercyAddr, doctor, rooms, acceptedInsurance);
 
-        System.out.println(childrensMercy.printHospital);
+       childrensMercy.printHospital;
 
         for (int i=0; i<doctor.size(); i++) {
             doctor.get(i).doctorPrint();
+
         }
 
     }

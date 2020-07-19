@@ -15,9 +15,9 @@ public class Doctor {
         this.insuranceAccepted = insuranceAccepted;
     }
 
-public void doctorPrint() {
-    System.out.println("Doctor's name: " + name + " " + lastName);
-    System.out.println("\nDoctor's position:  " + position);
-    System.out.println("\nDoctor " + lastName + " accepts" + insuranceAccepted);
+public String doctorPrint() {
+    return "Doctor's name: " + name + " " + lastName +
+            "\nDoctor's position:  " + position +
+            "\nDoctor " + lastName + " accepts" + insuranceAccepted;
 }
 }

@@ -47,7 +47,7 @@ public class Car {
 
     }
 
-    public void printCar() {
+    public void printInfo() {
         System.out.println("Car make " + make + " model " + " color " + color + " " + year);
     }
 
