@@ -1,5 +1,7 @@
 package Hw16;
 
+import java.util.Arrays;
+
 public class Doctor {
     private String name;
     private String lastName;
@@ -14,6 +16,8 @@ public class Doctor {
     }
 
 public void doctorPrint() {
-
+    System.out.println("Doctor's name: " + name + " " + lastName);
+    System.out.println("\nDoctor's position:  " + position);
+    System.out.println("\nDoctor " + lastName + " accepts" + insuranceAccepted);
 }
 }

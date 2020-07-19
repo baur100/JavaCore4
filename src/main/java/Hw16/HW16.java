@@ -34,7 +34,6 @@ public class HW16 {
         Address childrensMercyAddr = new Address ("1305 Lincoln Dr", "Miami", "FL", 45201);
 
 
-
         ArrayList<Doctor> doctor = new ArrayList<Doctor>();
         doctor.add(new Doctor("Anna", "Smith", Position.SURGEON, InsuranceCompanies.AETNA));
         doctor.add(new Doctor("Michael", "Schwartz", Position.OBSTETRICIAN, InsuranceCompanies.BCBS));
@@ -63,6 +62,12 @@ public class HW16 {
         acceptedInsurance.add(InsuranceCompanies.SUNFLOWER);
 
         Hospital childrensMercy= new Hospital ("Children's Mercy Hospital", childrensMercyAddr, doctor, rooms, acceptedInsurance);
+
+        System.out.println(childrensMercy.printHospital);
+
+        for (int i=0; i<doctor.size(); i++) {
+            doctor.get(i).doctorPrint();
+        }
 
     }
 }

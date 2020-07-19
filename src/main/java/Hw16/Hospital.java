@@ -8,9 +8,9 @@ public class Hospital {
     private Address address;
     private List<Doctor> doctor;
     private HashMap<Integer, String> rooms;
-    private List<Insurance> acceptedInsurance;
+    private List<InsuranceCompanies> acceptedInsurance;
 
-    public Hospital(String hospitalName, Address address, List<Doctor> doctor, HashMap<Integer, String> rooms, List<Insurance> acceptedInsurance) {
+    public Hospital(String hospitalName, Address address, List<Doctor> doctor, HashMap<Integer, String> rooms, List<InsuranceCompanies> acceptedInsurance) {
         this.hospitalName = hospitalName;
         this.address = address;
         this.doctor = doctor;
@@ -56,6 +56,12 @@ public class Hospital {
 
     public void setAcceptedInsurance(List<InsuranceCompanies> acceptedInsurance) {
         this.acceptedInsurance = acceptedInsurance;
+    }
+
+    public void printHospital() {
+        System.out.println("Hospital name" + hospitalName + " address " + address);
+        System.out.println("\nList of doctors " + doctor + "");
+
     }
 }
 

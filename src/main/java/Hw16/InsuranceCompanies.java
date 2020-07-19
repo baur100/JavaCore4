@@ -6,4 +6,8 @@ public enum InsuranceCompanies {
     BCBS,
     SUNFLOWER,
     UNITEDHEALTHCARE,
+    ;
+
+    InsuranceCompanies() {
+    }
 }
