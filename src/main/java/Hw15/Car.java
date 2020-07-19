@@ -45,6 +45,11 @@ public class Car {
     public void setYear(int year) {
         this.year = year;
 
-        }
+    }
+
+    public void printCar() {
+        System.out.println("Car make " + make + " model " + " color " + color + " " + year);
+    }
+
 }
 

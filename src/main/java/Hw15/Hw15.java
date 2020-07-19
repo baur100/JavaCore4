@@ -231,7 +231,7 @@ public class Hw15 {
         car.add (new Car ("Porsche", "Cayenne", Color.RED, 2020));
         car.add (new Car ("Alpha Romeo", "Stelvio", Color.BLUE, 2020));
         car.add (new Car ("Maserati", "Levante", Color.PURPLE, 2020));
-        System.out.println (car.toString());
+        System.out.println (car.printInfo());
 
     }
 }
