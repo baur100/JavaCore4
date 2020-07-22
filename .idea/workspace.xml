@@ -20,35 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf6487c-6417-4939-baed-f8b0f44809a5" name="Default Changelist" comment="hw17">
-      <change afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/packagePS/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JavaCore4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaCore4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,6 +167,7 @@
       <workItem from="1594692263462" duration="4178000" />
       <workItem from="1594745268735" duration="396000" />
       <workItem from="1594773307416" duration="10945000" />
+      <workItem from="1595382007747" duration="471000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1593051268718</created>
@@ -359,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594877551569</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="hw17">
+      <created>1595300347616</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1595300347616</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,8 +566,8 @@
     <state x="1607" y="20" width="1582" height="771" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/1440.-104.1920.1080/0.0.1440.900@1440.-104.1920.1080" timestamp="1594876408620" />
     <state x="125" y="124" width="1186" height="626" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/1440.-81.1920.992/0.23.1440.877@0.23.1440.877" timestamp="1594695803440" />
     <state x="125" y="124" width="1186" height="626" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/1440.-81.1920.994/0.23.1440.877@0.23.1440.877" timestamp="1594695811895" />
-    <state x="519" y="243" key="git4idea.merge.GitMergeDialog" timestamp="1595296984991">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="519" y="244" key="git4idea.merge.GitMergeDialog" timestamp="1595382198016">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="519" y="244" key="git4idea.merge.GitMergeDialog/0.23.1440.828@0.23.1440.828" timestamp="1593978323719" />
     <state x="519" y="244" key="git4idea.merge.GitMergeDialog/0.23.1440.830@0.23.1440.830" timestamp="1593623811733" />
@@ -590,8 +575,10 @@
     <state x="519" y="245" key="git4idea.merge.GitMergeDialog/0.23.1440.832@0.23.1440.832" timestamp="1593623422167" />
     <state x="519" y="246" key="git4idea.merge.GitMergeDialog/0.23.1440.836@0.23.1440.836" timestamp="1593402091751" />
     <state x="519" y="243" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.826@0.23.1440.826" timestamp="1594259119124" />
+    <state x="519" y="243" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1595300373936" />
     <state x="519" y="243" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1595296984991" />
     <state x="519" y="244" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.829@0.23.1440.829" timestamp="1593723392688" />
+    <state x="519" y="244" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.830@0.23.1440.830" timestamp="1595382198016" />
     <state x="519" y="244" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.831@0.23.1440.831" timestamp="1595296507415" />
     <state x="519" y="245" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.832@0.23.1440.832" timestamp="1593226757836" />
     <state x="519" y="245" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.833@0.23.1440.833" timestamp="1593225094393" />
