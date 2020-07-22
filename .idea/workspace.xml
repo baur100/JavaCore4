@@ -20,12 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaf6487c-6417-4939-baed-f8b0f44809a5" name="Default Changelist" comment="hw17">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaCore4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaCore4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_21.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +187,7 @@
       <workItem from="1594692263462" duration="4178000" />
       <workItem from="1594745268735" duration="396000" />
       <workItem from="1594773307416" duration="10945000" />
-      <workItem from="1595382007747" duration="471000" />
+      <workItem from="1595382007747" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1593051268718</created>
@@ -344,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595300347616</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="hw17">
+      <created>1595382588334</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1595382588334</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,8 +567,8 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="365" y="218" key="MultipleFileMergeDialog/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593051302330" />
-    <state x="1872" y="130" key="Vcs.Push.Dialog.v2" timestamp="1594877565800">
-      <screen x="1440" y="-81" width="1920" height="1057" />
+    <state x="324" y="189" key="Vcs.Push.Dialog.v2" timestamp="1595382619316">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="324" y="188" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1594704746363" />
     <state x="324" y="190" key="Vcs.Push.Dialog.v2/0.23.1440.836@0.23.1440.836" timestamp="1594687195838" />
@@ -550,6 +577,7 @@
     <state x="324" y="188" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1594271535428" />
     <state x="324" y="188" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1594694563465" />
     <state x="324" y="188" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.829@0.23.1440.829" timestamp="1594696354015" />
+    <state x="324" y="189" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.830@0.23.1440.830" timestamp="1595382619316" />
     <state x="1872" y="130" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.830@1440.-81.1920.1057" timestamp="1594877565800" />
     <state x="324" y="190" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593054119416" />
     <state x="324" y="190" key="Vcs.Push.Dialog.v2/1440.-81.1920.1057/0.23.1440.835@0.23.1440.835" timestamp="1593052354820" />
@@ -583,8 +611,8 @@
     <state x="519" y="245" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.832@0.23.1440.832" timestamp="1593226757836" />
     <state x="519" y="245" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.833@0.23.1440.833" timestamp="1593225094393" />
     <state x="519" y="245" key="git4idea.merge.GitMergeDialog/1440.-81.1920.1057/0.23.1440.834@0.23.1440.834" timestamp="1593055164005" />
-    <state x="428" y="239" key="git4idea.merge.GitPullDialog" timestamp="1594868749693">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state x="428" y="239" key="git4idea.merge.GitPullDialog" timestamp="1595382631169">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="428" y="237" key="git4idea.merge.GitPullDialog/0.23.1440.826@0.23.1440.826" timestamp="1594252652908" />
     <state x="428" y="238" key="git4idea.merge.GitPullDialog/0.23.1440.828@0.23.1440.828" timestamp="1594745296844" />
@@ -594,6 +622,7 @@
     <state x="428" y="240" key="git4idea.merge.GitPullDialog/0.23.1440.837@0.23.1440.837" timestamp="1594602340215" />
     <state x="428" y="237" key="git4idea.merge.GitPullDialog/1440.-81.1920.1057/0.23.1440.827@0.23.1440.827" timestamp="1594271547970" />
     <state x="428" y="238" key="git4idea.merge.GitPullDialog/1440.-81.1920.1057/0.23.1440.828@0.23.1440.828" timestamp="1594014456208" />
+    <state x="428" y="239" key="git4idea.merge.GitPullDialog/1440.-81.1920.1057/0.23.1440.830@0.23.1440.830" timestamp="1595382631169" />
     <state x="428" y="239" key="git4idea.merge.GitPullDialog/1440.-81.1920.1057/0.23.1440.831@0.23.1440.831" timestamp="1594868749693" />
     <state x="428" y="239" key="git4idea.merge.GitPullDialog/1440.-81.1920.1057/0.23.1440.832@0.23.1440.832" timestamp="1593227857460" />
     <state x="428" y="239" key="git4idea.merge.GitPullDialog/1440.-81.1920.1057/0.23.1440.833@0.23.1440.833" timestamp="1593224700600" />
