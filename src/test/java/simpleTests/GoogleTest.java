@@ -13,10 +13,11 @@ public class GoogleTest {
     private WebDriver driver;
 
     @BeforeMethod
-    public void startUp(){
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+    public void startUp() throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
         driver.get("https://google.com");
+        Thread.sleep(1000);
     }
     @AfterMethod
     public void tearDown() throws InterruptedException {
@@ -29,6 +30,7 @@ public class GoogleTest {
         WebElement searchButton = driver.findElement(By.cssSelector("[name='btnK']"));
 
         searchField.sendKeys("Selenium");
+        Thread.sleep(1000);
         searchButton.click();
 
         Assert.assertEquals(driver.getTitle(), "Selenium - Google Search");
@@ -40,6 +42,7 @@ public class GoogleTest {
         WebElement searchButton = driver.findElement(By.cssSelector("[name='btnK']"));
 
         searchField.sendKeys("Java");
+        Thread.sleep(1000);
         searchButton.click();
 
         Assert.assertEquals(driver.getTitle(), "Java - Google Search");
@@ -51,6 +54,7 @@ public class GoogleTest {
         WebElement searchButton = driver.findElement(By.cssSelector("[name='btnK']"));
 
         searchField.sendKeys("Maven");
+        Thread.sleep(1000);
         searchButton.click();
 
         Assert.assertEquals(driver.getTitle(), "Maven - Google Search");
