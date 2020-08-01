@@ -11,16 +11,16 @@ public class LoginPage extends BasePage{
         super(driver);
     }
 
-    public WebElement getEmail() {
+    private WebElement getEmail() {
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("[type='email']")));
         return this.driver.findElement(By.cssSelector("[type='email']"));
     }
 
-    public WebElement getPassword() {
+    private WebElement getPassword() {
         return this.driver.findElement(By.cssSelector("[type='password']"));
     }
 
-    public WebElement getLoginButton() {
+    private WebElement getLoginButton() {
         return this.driver.findElement(By.cssSelector("[type='submit']"));
     }
 
