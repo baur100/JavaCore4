@@ -1,18 +1,33 @@
 package pageObjects;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class MainPage extends BasePage{
+import java.util.List;
+
+public class MainPage extends BasePage {
 
     public MainPage(WebDriver driver) {
         super(driver);
     }
 
-    public WebElement getPlayerControl(){
-        return fluentWait.until(x->x.findElement(By.id("playerControls")));
+    private WebElement getPlayerControl() {
+        return fluentWait.until(x -> x.findElement(By.cssSelector("[href='#!/favorites']")));
+    }
+
+    private void clickOnPlusButton() {
+        for (int i = 0; i < 50; i++) {
+            try {
+                driver.findElement(By.cssSelector(".fa.fa-plus-circle")).click();
+                return;
+            } catch (ElementClickInterceptedException | NoSuchElementException ignored) {
+
+            }
+        }
+    }
+
+    private WebElement getNewPlaylistNameField() {
+        return this.driver.findElement(By.xpath("//*[@class = 'create']/*"));
     }
 
     public boolean isMain() {
@@ -23,4 +38,25 @@ public class MainPage extends BasePage{
         }
         return true;
     }
+
+    public String createNewPlaylist(String playlistName) {
+        clickOnPlusButton();
+        getNewPlaylistNameField().sendKeys(playlistName);
+        getNewPlaylistNameField().sendKeys(Keys.ENTER);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".success.show")));
+        String url = driver.getCurrentUrl();
+        String[] parts = url.split("/");
+        return parts[5];
+    }
+
+    public boolean isPlaylistExist(String playlistId) {
+        for (int i = 0; i < 50; i++) {
+            try {
+                driver.findElement(By.xpath("//*[@href='#!/playlist/"+playlistId+"']"));
+                return true;
+            } catch (NoSuchElementException ignored){     }
+        }
+        return false;
+    }
+
 }
