@@ -30,4 +30,20 @@ public class LoginTest {
         MainPage mainPage = loginPage.loginToKoel("testpro.user04@testpro.io","te$t$tudent");
         Assert.assertTrue(mainPage.isMain());
     }
+    @Test
+    public void createPlaylist(){
+        var loginPage = new LoginPage(driver);
+        loginPage.openPage();
+        var mainPage = loginPage.loginToKoel("testpro.user04@testpro.io","te$t$tudent");
+        String playlistId = mainPage.createNewPlaylist("TestPLAYllllliiist");
+        Assert.assertTrue(mainPage.isPlaylistExist(playlistId));
+    }
+    @Test
+    public void playlist7003exist() throws InterruptedException {
+        var loginPage = new LoginPage(driver);
+        loginPage.openPage();
+        var mainPage = loginPage.loginToKoel("testpro.user04@testpro.io","te$t$tudent");
+        mainPage.isMain();
+        Assert.assertTrue(mainPage.isPlaylistExist("7003"));
+    }
 }
