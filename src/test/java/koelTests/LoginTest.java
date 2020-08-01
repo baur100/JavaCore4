@@ -24,11 +24,12 @@ public class LoginTest {
         driver.quit();
     }
     @Test
-    public void loginToKoel() {
+    public void loginToKoel() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.openPage();
         MainPage mainPage = loginPage.loginToKoel("testpro.user04@testpro.io","te$t$tudent");
         Assert.assertTrue(mainPage.isMain());
+        mainPage.sideNavScrollDown();
     }
     @Test
     public void createPlaylist(){
@@ -45,5 +46,12 @@ public class LoginTest {
         var mainPage = loginPage.loginToKoel("testpro.user04@testpro.io","te$t$tudent");
         mainPage.isMain();
         Assert.assertTrue(mainPage.isPlaylistExist("7003"));
+    }
+    @Test
+    public void failedLogin() {
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.openPage();
+        loginPage.loginToKoel("testpro.user04@testpro.io", "wrongpassword");
+        Assert.assertTrue(loginPage.isError());
     }
 }

@@ -3,8 +3,6 @@ package pageObjects;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.util.List;
-
 public class MainPage extends BasePage {
 
     public MainPage(WebDriver driver) {
@@ -59,4 +57,12 @@ public class MainPage extends BasePage {
         return false;
     }
 
+    private WebElement getHome() {
+        return this.driver.findElement(By.cssSelector("[class='home active']"));
+    }
+
+    public void sideNavScrollDown() throws InterruptedException {
+        Thread.sleep(1000); //refactor later
+        getHome().sendKeys(Keys.PAGE_DOWN);
+    }
 }
