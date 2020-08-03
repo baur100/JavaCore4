@@ -1,6 +1,7 @@
 package pageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -24,6 +25,10 @@ public class LoginPage extends BasePage{
         return this.driver.findElement(By.cssSelector("[type='submit']"));
     }
 
+    private WebElement getErrorOutLiner() {
+        return this.driver.findElement(By.cssSelector("[class='error']"));
+    }
+
     public MainPage loginToKoel(String username, String password) {
         getEmail().sendKeys(username);
         getPassword().sendKeys(password);
@@ -34,4 +39,14 @@ public class LoginPage extends BasePage{
     public void openPage(){
         this.driver.get("https://koelapp.testpro.io");
     }
+
+    public boolean isError() {
+        try {
+            getErrorOutLiner().isDisplayed();
+        } catch (TimeoutException xx) {
+            return false;
+        }
+        return true;
+    }
+
 }
