@@ -15,7 +15,7 @@ public class LoginTest {
 
     @BeforeMethod
     public void startUp(){
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
     }
     @AfterMethod
@@ -46,4 +46,15 @@ public class LoginTest {
         mainPage.isMain();
         Assert.assertTrue(mainPage.isPlaylistExist("7003"));
     }
+
+    @Test
+    public void logInError(){
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.openPage();
+        MainPage mainPage = loginPage.loginToKoel("**testpro.user04@testpro.io","te$t$tudent");
+        Assert.assertTrue(loginPage.isError());
+    }
+
+
+
 }
