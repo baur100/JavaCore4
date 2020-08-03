@@ -12,10 +12,16 @@ public class SeleApp {
         WebDriver chromeDriver = new ChromeDriver();
         chromeDriver.get("https://google.com");
 
-        WebElement searchField = chromeDriver.findElement(By.cssSelector("[name='q]"));
+        WebElement searchField = chromeDriver.findElement(By.cssSelector("[name='q']"));
+
         searchField.sendKeys("JAVA");
         searchField.sendKeys(Keys.ENTER);
         Thread.sleep(5000);
+
+        WebElement javaLink = chromeDriver.findElement(By.cssSelector("[name='www.java.com']"));
+        javaLink.click();
+        Thread.sleep(5000);
+
         chromeDriver.close();
     }
 }

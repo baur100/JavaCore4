@@ -1,4 +1,4 @@
-package unitTests;
+package unitTestsMine;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

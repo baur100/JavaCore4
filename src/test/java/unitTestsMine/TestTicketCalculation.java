@@ -1,4 +1,4 @@
-package unitTests;
+package unitTestsMine;
 
 /*
 * Unit Tests are testing methods (only method level testing) in the class
