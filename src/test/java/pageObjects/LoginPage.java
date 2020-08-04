@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+
 public class LoginPage extends BasePage{
 
     public LoginPage(WebDriver driver) {
@@ -25,8 +26,8 @@ public class LoginPage extends BasePage{
         return this.driver.findElement(By.cssSelector("[type='submit']"));
     }
 
-    private WebElement getErrorOutLiner() {
-        return this.driver.findElement(By.cssSelector("[class='error']"));
+  private WebElement getErrorOutLiner() {
+    return fluentWait.until(x -> x.findElement(By.cssSelector("[class='error']")));
     }
 
     public MainPage loginToKoel(String username, String password) {
