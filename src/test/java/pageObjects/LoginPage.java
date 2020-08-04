@@ -1,8 +1,7 @@
 package pageObjects;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class LoginPage extends BasePage{
@@ -33,5 +32,14 @@ public class LoginPage extends BasePage{
     }
     public void openPage(){
         this.driver.get("https://koelapp.testpro.io");
+    }
+    public boolean isWrongLogin(){
+        try{
+            var xx = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".error")));
+            driver.findElement(By.className("error"));
+            return true;
+        } catch (TimeoutException err){
+            return false;
+        }
     }
 }

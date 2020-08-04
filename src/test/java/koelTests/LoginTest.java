@@ -1,6 +1,8 @@
 package koelTests;
 
 
+import enums.BrowserType;
+import helpers.BrowserFabric;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -14,9 +16,8 @@ public class LoginTest {
     private WebDriver driver;
 
     @BeforeMethod
-    public void startUp(){
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        driver = new ChromeDriver();
+    public void startUp() throws NoSuchFieldException {
+        driver = BrowserFabric.getDriver(BrowserType.FIREFOX);
     }
     @AfterMethod
     public void tearDown() throws InterruptedException {
@@ -39,11 +40,18 @@ public class LoginTest {
         Assert.assertTrue(mainPage.isPlaylistExist(playlistId));
     }
     @Test
-    public void playlist7003exist() throws InterruptedException {
+    public void playlist7003exist(){
         var loginPage = new LoginPage(driver);
         loginPage.openPage();
         var mainPage = loginPage.loginToKoel("testpro.user04@testpro.io","te$t$tudent");
         mainPage.isMain();
         Assert.assertTrue(mainPage.isPlaylistExist("7003"));
+    }
+    @Test
+    public void wrongLogin(){
+        var loginPage = new LoginPage(driver);
+        loginPage.openPage();
+        loginPage.loginToKoel("testpro.user04@testpro.io","wrongPassword");
+        Assert.assertTrue(loginPage.isWrongLogin());
     }
 }
