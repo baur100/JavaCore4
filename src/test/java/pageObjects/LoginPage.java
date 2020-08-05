@@ -33,13 +33,12 @@ public class LoginPage extends BasePage{
     public void openPage(){
         this.driver.get("https://koelapp.testpro.io");
     }
-
-    public boolean isError() {
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[class='error']")));
-        try {
-            driver.findElement(By.cssSelector("[class='error']"));
+    public boolean isWrongLogin(){
+        try{
+            var xx = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".error")));
+            driver.findElement(By.className("error"));
             return true;
-        } catch (NoSuchElementException ignored) {
+        } catch (TimeoutException err){
             return false;
         }
     }
