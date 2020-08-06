@@ -25,7 +25,6 @@ public class BrowserFabric {
     }
 
     private static WebDriver getEdgeDriver() {
-
         System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
         return new EdgeDriver();
     }
