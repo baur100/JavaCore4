@@ -42,14 +42,17 @@ public class MainPage<driver> extends BasePage {
         return true;
     }
 
-    public String createNewPlaylist(String playlistName) {
+    public String createNewPlaylist(String playlistName){
         clickOnPlusButton();
         getNewPlaylistNameField().sendKeys(playlistName);
         getNewPlaylistNameField().sendKeys(Keys.ENTER);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".success.show")));
         String url = driver.getCurrentUrl();
         String[] parts = url.split("/");
-        return parts[5];
+        String playlistId = parts[5];
+        WebElement newPlaylist = driver.findElement(By.xpath("//*[@href='#!/playlist/"+playlistId+"']"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", newPlaylist);
+        return playlistId;
     }
 
     public boolean isPlaylistExist(String playlistId) {
