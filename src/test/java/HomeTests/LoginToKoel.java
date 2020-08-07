@@ -28,7 +28,7 @@ public class LoginToKoel {
     public void loginPass () {
         LoginP loginPage = new LoginP(driver);
         loginPage.openLoginPage();
-        MainPage mainPage = loginPage.login("testpro.user18@testpro.io", "te$t$tudent");
+        MainPage mainPage = loginPage.login("testpro.user04@testpro.io", "te$t$tudent");
         Assert.assertTrue(mainPage.isMain());
     }
 
@@ -36,7 +36,7 @@ public class LoginToKoel {
     public void loginFail () {
         LoginP loginPage = new LoginP(driver);
         loginPage.openLoginPage();
-        loginPage.login("testpro.user18@testpro.io", "te$t$tudent1");
+        loginPage.login("testpro.user04@testpro.io", "te$t$tudent1");
         Assert.assertTrue(loginPage.redPhramePresents());
     }
 }
