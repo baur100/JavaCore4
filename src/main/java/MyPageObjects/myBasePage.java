@@ -14,10 +14,11 @@ public class myBasePage {
 
     public myBasePage(WebDriver driver) {
         this.driver = driver;
-        wait = new WebDriverWait(this.driver, 50);
+        wait = new WebDriverWait(this.driver, 10);
         fluentWait = new FluentWait<WebDriver>(driver)
                 .pollingEvery(Duration.ofMillis(100))
-                .withTimeout(Duration.ofSeconds(10));
+                .withTimeout(Duration.ofSeconds(10))
+                .ignoring(NoSuchElementException.class);
 
     }
 }

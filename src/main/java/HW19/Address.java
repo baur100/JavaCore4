@@ -44,7 +44,10 @@ public class Address {
     public void setZip(int zip) {
         this.zip = zip;
     }
-    public void printAddress(){
-        System.out.println("Street Address : " + streetAddress + "\nTown : " + town + "\nState: " + state + "\nZip code : " + zip );
+    public String printAddress(){
+        return "\nStreet Address : " + streetAddress +
+                "\nTown : " + town +
+                "\nState: " + state +
+                "\nZip code : " + zip;
     }
 }

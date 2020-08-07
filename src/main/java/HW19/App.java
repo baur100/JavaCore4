@@ -30,15 +30,15 @@ public class App {
 
 
         ecoFarm.printInfo();
-        farmAddress.printAddress();
-        for (Map.Entry<Cattle,Integer> x: cattle.entrySet()){
-            Cattle c = x.getKey();
-            int i = x.getValue();
-            System.out.println(c + " - " + i);
-        }
-        for (Agricultural p: agricultural) {
-            System.out.println(p.getNameOfCulture() + " = " +  p.getFieldsNumber());
-        }
+//        farmAddress.printAddress();
+//        for (Map.Entry<Cattle,Integer> x: cattle.entrySet()){
+//            Cattle c = x.getKey();
+//            int i = x.getValue();
+//            System.out.println(c + " - " + i);
+//        }
+//        for (Agricultural p: agricultural) {
+//            System.out.println(p.getNameOfCulture() + " = " +  p.getFieldsNumber());
+//        }
         
 
 

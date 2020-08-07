@@ -24,5 +24,7 @@ public class Agricultural {
     public void setFieldsNumber(int fieldsNumber) {
         this.fieldsNumber = fieldsNumber;
     }
-
+    public String printInfo(){
+        return nameOfCulture + ", field Number :" + fieldsNumber;
+    }
 }

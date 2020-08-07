@@ -47,7 +47,19 @@ public class Farm {
     public void setAgricultural(List<Agricultural> agricultural) {
         this.agricultural = agricultural;
     }
-    public void printInfo(){
-        System.out.println("Farm name: " + name);
+    public void printInfo() {
+        System.out.println("\nFarm: " +
+                "\nName: " + name +
+                address.printAddress() +
+                "\nWe have Cattle:");
+        for (Map.Entry<Cattle,Integer> x: cattle.entrySet()){
+            Cattle c = x.getKey();
+            int i = x.getValue();
+            System.out.println(c + " - " + i);
+        }
+        System.out.println("\nWe have Agricultural: ");
+        for (Agricultural agre : agricultural) {
+            System.out.println(agre.printInfo());
+        }
     }
 }
