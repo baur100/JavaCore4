@@ -36,7 +36,7 @@ public class LoginToKoel {
     public void loginFail () {
         LoginP loginPage = new LoginP(driver);
         loginPage.openLoginPage();
-        loginPage.login("testpro.user04@testpro.io", "te$t$tudent1");
+        loginPage.login("testpro.user04@testpro.io", "te$t$tudent");
         Assert.assertTrue(loginPage.redPhramePresents());
     }
 }

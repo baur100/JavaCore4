@@ -1,6 +1,7 @@
 package L9HWPageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -42,7 +43,14 @@ public class LoginP extends Basic {
     }
 
     public boolean redPhramePresents (){
-        return getRedPhrame().isDisplayed();
+        try{
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[class='error']")));
+            driver.findElement(By.cssSelector("[class='error']"));
+            return true;
+        }
+        catch (TimeoutException err){
+            return false;
+        }
     }
 
 }
