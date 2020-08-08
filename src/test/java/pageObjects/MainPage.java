@@ -1,6 +1,7 @@
 package pageObjects;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
@@ -62,4 +63,14 @@ public class MainPage extends BasePage {
         return false;
     }
 
+    public void renamePlaylist(String playlistId, String newName) {
+        var playlist = driver.findElement(By.xpath("//*[@href='#!/playlist/"+playlistId+"']"));
+        Actions actions = new Actions(driver);
+        actions.doubleClick(playlist).perform();
+        var editField = driver.findElement(By.xpath("//*[@class='playlist playlist editing']/input"));
+        editField.sendKeys(Keys.CONTROL+"a");
+        editField.sendKeys(newName);
+        editField.sendKeys(Keys.RETURN);
+
+    }
 }
