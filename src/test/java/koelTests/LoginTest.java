@@ -46,4 +46,23 @@ public class LoginTest {
         mainPage.isMain();
         Assert.assertTrue(mainPage.isPlaylistExist("7003"));
     }
-}
+
+    @Test
+    public void iserror() {
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.openPage();
+        loginPage.loginToKoel("aaa@yahoo.com", "bbb");
+        Assert.assertTrue(loginPage.iserror());
+    }
+
+    @Test
+    public void scrolldowntest(){
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.openPage();
+        var mainPage = loginPage.loginToKoel("testpro.user04@testpro.io","te$t$tudent");
+        mainPage.isMain();
+        Assert.assertTrue(mainPage.FindElementScrollingdown());
+
+    }
+    }
+

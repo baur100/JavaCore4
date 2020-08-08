@@ -1,6 +1,7 @@
 package pageObjects;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
@@ -14,7 +15,9 @@ public class MainPage extends BasePage {
     private WebElement getPlayerControl() {
         return fluentWait.until(x -> x.findElement(By.cssSelector("[href='#!/favorites']")));
     }
-
+    private WebElement getScrollelement() {
+        return this.driver.findElement(By.cssSelector("#sidebar > section.music > h1"));
+    }
     private void clickOnPlusButton() {
         for (int i = 0; i < 50; i++) {
             try {
@@ -52,11 +55,31 @@ public class MainPage extends BasePage {
     public boolean isPlaylistExist(String playlistId) {
         for (int i = 0; i < 50; i++) {
             try {
-                driver.findElement(By.xpath("//*[@href='#!/playlist/"+playlistId+"']"));
+                driver.findElement(By.xpath("//*[@href='#!/playlist/" + playlistId + "']"));
                 return true;
-            } catch (NoSuchElementException ignored){     }
+            } catch (NoSuchElementException ignored) {
+            }
         }
         return false;
     }
 
+    public boolean FindElementScrollingdown() {
+        try {
+            WebElement elementscroll = driver.findElement(By.cssSelector("#sidebar > section.music > ul > li:nth-child(1) > a"));
+            wait.until(ExpectedConditions.visibilityOf(elementscroll));
+            elementscroll.click();
+
+           WebElement Bottomelement = driver.findElement(By.cssSelector("#playlists > ul > li:last-child> a"));
+
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].scrollIntoView();",  Bottomelement);
+            wait.until(ExpectedConditions.visibilityOf(Bottomelement));
+            return Bottomelement.isDisplayed();
+            // Scroll Down using Actions class
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
 }
