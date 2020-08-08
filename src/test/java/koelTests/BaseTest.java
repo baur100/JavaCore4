@@ -2,7 +2,9 @@ package koelTests;
 
 import enums.BrowserType;
 import helpers.BrowserFabric;
+import helpers.GetScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -14,7 +16,10 @@ public class BaseTest {
         driver = BrowserFabric.getDriver(BrowserType.FIREFOX);
     }
     @AfterMethod
-    public void tearDown() throws InterruptedException {
+    public void tearDown(ITestResult iTestResult) throws InterruptedException {
+        if(iTestResult.getStatus()==iTestResult.FAILURE){
+            GetScreenshot.capture(driver,iTestResult.getName());
+        }
         Thread.sleep(5000);
         driver.quit();
     }
