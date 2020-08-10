@@ -1,55 +1,34 @@
 package unitTests;
 
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import tickets.TicketPrice;
 
 public class TestTicketCalculation {
-    @Test
-    public void testTicketCalculation_infant_priceIsZero(){
-        // Arrange
-        TicketPrice ticketPrice = new TicketPrice(1000);
 
-        // Act
-        double result = ticketPrice.getPrice(1);
 
-        // Assert
-        Assert.assertEquals(result,0.0);
+    @DataProvider(name="Ages")
+    public Object[][] createData(){
+        return new Object[][]{
+            {1,1000,0.0},
+            {2,1000,0.0},
+            {3,1000,500.0},
+            {10,1000,500.0},
+            {20,1000,1000.0},
+            {70,1000,800.0}
+        };
     }
 
-    @Test
-    public void testTicketCalculation_child_priceIsHalf(){
+    @Test(dataProvider = "Ages")
+    public void testTicketPrice(int age, int price, double fare){
         // Arrange
-        TicketPrice ticketPrice = new TicketPrice(1000);
+        TicketPrice ticketPrice = new TicketPrice(price);
 
         // Act
-        double result = ticketPrice.getPrice(10);
+        double result = ticketPrice.getPrice(age);
 
         // Assert
-        Assert.assertEquals(result,500.0);
-    }
-
-    @Test
-    public void testTicketCalculation_adult_priceIsFull(){
-        // Arrange
-        TicketPrice ticketPrice = new TicketPrice(1000);
-
-        // Act
-        double result = ticketPrice.getPrice(20);
-
-        // Assert
-        Assert.assertEquals(result,1000.0);
-    }
-
-    @Test
-    public void testTicketCalculation_senior_priceIs80percent(){
-        // Arrange
-        TicketPrice ticketPrice = new TicketPrice(1000);
-
-        // Act
-        double result = ticketPrice.getPrice(70);
-
-        // Assert
-        Assert.assertEquals(result,800.0);
+        Assert.assertEquals(result,fare);
     }
 }
