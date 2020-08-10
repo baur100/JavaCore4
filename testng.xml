@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Master Suit" thread-count="3" parallel="classes">
+    <listeners>
+        <listener class-name="listeners.Listeners"/>
+    </listeners>
+    <parameter name="email" value="testpro.user04@testpro.io"/>
+    <parameter name="password" value="te$t$tudent"></parameter>
     <test name="Selenium tests">
         <classes>
+            <class name="koelTests.RenamePlaylistTest">
+                <methods>
+                    <include name="renamePlaylist"/>
+                </methods>
+            </class>
             <class name="koelTests.AlbumTest">
                 <methods>
                     <include name="album_playlistTest_loginToKoel"/>
