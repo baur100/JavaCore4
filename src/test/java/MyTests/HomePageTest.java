@@ -1,4 +1,4 @@
-package koelTests;
+package MyTests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import pageObjects.LoginPage;
 import pageObjects.MainPage;
 
-public class SinHomePageTest {
+public class HomePageTest {
     private WebDriver driver;
 
     @BeforeMethod
@@ -42,19 +42,19 @@ public class SinHomePageTest {
                 ("testpro.user04@testpro.io", "te$t$tudent");
         String playlistId = mainPage.createNewPlaylist("SinPlaylist");
         boolean sinPlaylistExist = mainPage.isPlaylistExist("SinPlaylist");
-        mainPage.playlistScroll();
         Assert.assertTrue(mainPage.isMain());
 
     }
 
-    @Test void renameNewPlaylist() throws InterruptedException {
+    @Test
+    public void renameNewPlaylist() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.openPage();
         var mainPage = loginPage.loginToKoel
                 ("testpro.user04@testpro.io", "te$t$tudent");
-        String playlistId = mainPage.createNewPlaylist("11SinPlaylist");
-        boolean sinPlaylistExist = mainPage.isPlaylistExist("11SinPlaylist");
-        mainPage.renamePlaylist(playlistId, "11SinPlaylist");
+        String playlistId = mainPage.createNewPlaylist("SinPlaylist");
+        boolean sinPlaylistExist = mainPage.isPlaylistExist("SinPlaylist");
+        mainPage.renamePlaylist(playlistId, "101");
 
 
     }
