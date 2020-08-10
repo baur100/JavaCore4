@@ -37,11 +37,6 @@ public class LoginP extends Basic {
         this.driver.get("https://koelapp.testpro.io");
     }
 
-    public WebElement getRedPhrame (){
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[class='error']")));
-        return this.driver.findElement(By.cssSelector("[class='error']"));
-    }
-
     public boolean redPhramePresents (){
         try{
             wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[class='error']")));

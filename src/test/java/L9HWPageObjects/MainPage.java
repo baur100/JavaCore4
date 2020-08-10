@@ -1,10 +1,8 @@
 package L9HWPageObjects;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+
 
 
 public class MainPage extends Basic {
@@ -18,7 +16,13 @@ public class MainPage extends Basic {
     }
 
     public boolean isMain () {
-        return getSearchField().isDisplayed();
+        try {
+            getSearchField().isDisplayed();
+        }
+        catch (TimeoutException error){
+            return false;
+        }
+        return true;
     }
 
     public void scrollDown () throws InterruptedException {

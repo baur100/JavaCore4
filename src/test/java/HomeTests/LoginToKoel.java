@@ -2,8 +2,9 @@ package HomeTests;
 
 import L9HWPageObjects.LoginP;
 import L9HWPageObjects.MainPage;
+import enumsYK.BrowserToChoose;
+import helpersYK.BrowserFabrics;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -14,13 +15,12 @@ public class LoginToKoel {
 
 
     @BeforeMethod
-    public void startUp (){
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-        driver = new ChromeDriver();
+    public void startUp () throws NoSuchFieldException {
+        driver = BrowserFabrics.getDriver(BrowserToChoose.CHROME);
     }
     @AfterMethod
-    public void tearDown () {
-//        Thread.sleep(5000);
+    public void tearDown () throws InterruptedException {
+        Thread.sleep(2000);
         driver.quit();
     }
 
@@ -36,7 +36,7 @@ public class LoginToKoel {
     public void loginFail () {
         LoginP loginPage = new LoginP(driver);
         loginPage.openLoginPage();
-        loginPage.login("testpro.user04@testpro.io", "te$t$tudent1");
+        loginPage.login("testpro.user04@testpro.io", "te$t$tudent");
         Assert.assertTrue(loginPage.redPhramePresents());
     }
 }
