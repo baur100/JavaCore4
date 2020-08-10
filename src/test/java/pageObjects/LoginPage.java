@@ -1,15 +1,12 @@
 package pageObjects;
 
-<<<<<<< HEAD
 import com.sun.jdi.ByteType;
 import org.openqa.selenium.*;
-=======
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
->>>>>>> remotes/origin/master
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class LoginPage extends BasePage{
+public class LoginPage extends BasePage {
 
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -35,26 +32,27 @@ public class LoginPage extends BasePage{
 
         return new MainPage(driver);
     }
-    public void openPage(){
+
+    public void openPage() {
         this.driver.get("https://koelapp.testpro.io");
     }
-<<<<<<< HEAD
 
-    public boolean isError() {
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[class='error']")));
-        try {
-            driver.findElement(By.cssSelector("[class='error']"));
-            return true;
-        } catch (NoSuchElementException ignored) {
-=======
-    public boolean isWrongLogin(){
-        try{
-            var xx = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".error")));
-            driver.findElement(By.className("error"));
-            return true;
-        } catch (TimeoutException err){
->>>>>>> remotes/origin/master
-            return false;
+//    public boolean isError() {
+//        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("[class='error']")));
+//        try {
+//            driver.findElement(By.cssSelector("[class='error']"));
+//            return true;
+//        } catch (NoSuchElementException ignored) {
+            public boolean isWrongLogin (){
+
+                try {
+                    var xx = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".error")));
+                    driver.findElement(By.className("error"));
+                    return true;
+                } catch (TimeoutException err) {
+                    return false;
+                }
+            }
         }
-    }
-}
+
+
