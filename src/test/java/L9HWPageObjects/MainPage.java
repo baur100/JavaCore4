@@ -32,7 +32,7 @@ public class MainPage extends Basic {
     public void clickOnPlusButton() {
         for (int i = 0; i < 50; i++) {
             try {
-                this.driver.findElement(By.cssSelector(".fa.fa-plus-circle")).click();
+                this.driver.findElement(By.cssSelector(".fa.fa-plus-circle.control.create")).click();
                 return;
             } catch (ElementClickInterceptedException | NoSuchElementException ignored) {
 
