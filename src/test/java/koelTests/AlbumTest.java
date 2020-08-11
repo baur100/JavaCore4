@@ -1,28 +1,12 @@
 package koelTests;
 
-
-import enums.BrowserType;
-import helpers.BrowserFabric;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageObjects.LoginPage;
 import pageObjects.MainPage;
 
-public class AlbumTest {
-    private WebDriver driver;
+public class AlbumTest extends BaseTest{
 
-    @BeforeMethod
-    public void startUp() throws NoSuchFieldException {
-        driver = BrowserFabric.getDriver(BrowserType.FIREFOX);
-    }
-    @AfterMethod
-    public void tearDown() throws InterruptedException {
-        Thread.sleep(5000);
-        driver.quit();
-    }
     @Test
     public void album_playlistTest_loginToKoel() {
         LoginPage loginPage = new LoginPage(driver);
