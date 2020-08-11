@@ -35,7 +35,7 @@ public class PlaylistCreate {
     }
 
     @Test
-    public void deletePlaylist () throws InterruptedException {
+    public void deletePlaylist () {
         LoginP loginPage = new LoginP(driver);
         loginPage.openLoginPage();
         MainPage mainPage = loginPage.login("testpro.user04@testpro.io", "te$t$tudent");
