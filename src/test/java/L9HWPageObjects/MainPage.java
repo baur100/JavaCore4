@@ -20,6 +20,11 @@ public class MainPage extends Basic {
         return this.driver.findElement(By.xpath("//*[@class = 'create']/*"));
     }
 
+    public WebElement getDeleteButton (){
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@title='Delete this playlist']")));
+        return this.driver.findElement(By.xpath("//*[@title='Delete this playlist']"));
+    }
+
     public boolean isMain() {
         try {
             getSearchField().isDisplayed();
@@ -60,6 +65,30 @@ public class MainPage extends Basic {
         }
         catch (NoSuchElementException error){
             return false;
+        }
+    }
+
+    public String deleteCreatedPlaylist (String playlistName){
+        clickOnPlusButton();
+        getNewPlaylistField().sendKeys(playlistName);
+        getNewPlaylistField().sendKeys(Keys.ENTER);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".success.show")));
+        String url = driver.getCurrentUrl();
+        String [] splitUrl = url.split("/");
+        String playlistId = splitUrl[5];
+        getDeleteButton().click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".success.show")));
+        return playlistId;
+    }
+
+    public boolean playlistDeleted (String playlistId){
+        try {
+            wait.until((ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[@href='#!/playlist/"+playlistId+"']"))));
+            driver.findElement(By.xpath("//*[@href='#!/playlist/"+playlistId+"']"));
+            return false;
+        }
+        catch (NoSuchElementException vv){
+            return true;
         }
     }
 

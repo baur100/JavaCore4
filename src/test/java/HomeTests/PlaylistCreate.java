@@ -34,14 +34,12 @@ public class PlaylistCreate {
         Assert.assertTrue(mainPage.playlistExists(playlistId));
     }
 
-
-
-//    @Test
-//    public void createPlaylist1() {
-//        LoginP loginPage = new LoginP(driver);
-//        loginPage.openLoginPage();
-//        MainPage mainPage = loginPage.login("testpro.user18@testpro.io", "te$t$tudent");
-//        String playlistId = mainPage.createNewPlaylist1("Lalala");
-//        Assert.assertTrue(mainPage.isPlaylistExist(playlistId));
-//    }
+    @Test
+    public void deletePlaylist () throws InterruptedException {
+        LoginP loginPage = new LoginP(driver);
+        loginPage.openLoginPage();
+        MainPage mainPage = loginPage.login("testpro.user04@testpro.io", "te$t$tudent");
+        String playlistId = mainPage.deleteCreatedPlaylist("YYY");
+        Assert.assertTrue(mainPage.playlistDeleted(playlistId));
+    }
 }
