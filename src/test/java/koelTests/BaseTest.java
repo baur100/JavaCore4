@@ -13,7 +13,7 @@ public class BaseTest {
 
     @BeforeMethod
     public void startUp() throws NoSuchFieldException {
-        driver = BrowserFabric.getDriver(BrowserType.FIREFOX);
+        driver = BrowserFabric.getDriver(BrowserType.CHROME);
     }
     @AfterMethod
     public void tearDown(ITestResult iTestResult) throws InterruptedException {
