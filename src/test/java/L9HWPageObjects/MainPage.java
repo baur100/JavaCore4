@@ -10,25 +10,95 @@ public class MainPage extends Basic {
         super(driver);
     }
 
-    public WebElement getSearchField () {
+
+    public WebElement getSearchField() {
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("[type='search']")));
         return this.driver.findElement(By.cssSelector("[type='search']"));
     }
 
-    public boolean isMain () {
+    public WebElement getNewPlaylistField () {
+        return this.driver.findElement(By.xpath("//*[@class = 'create']/*"));
+    }
+
+    public boolean isMain() {
         try {
             getSearchField().isDisplayed();
-        }
-        catch (TimeoutException error){
+        } catch (TimeoutException error) {
             return false;
         }
         return true;
     }
 
-    public void scrollDown () throws InterruptedException {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,5000)", "");
-        Thread.sleep(2000);
+    public void clickOnPlusButton() {
+        for (int i = 0; i < 50; i++) {
+            try {
+                this.driver.findElement(By.cssSelector(".fa.fa-plus-circle")).click();
+                return;
+            } catch (ElementClickInterceptedException | NoSuchElementException ignored) {
+
+            }
+        }
     }
+
+    public String createNewPlaylist (String playlistName){
+        clickOnPlusButton();
+        getNewPlaylistField().sendKeys(playlistName);
+        getNewPlaylistField().sendKeys(Keys.ENTER);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".success.show")));
+        String url = driver.getCurrentUrl();
+        String [] splitUrl = url.split("/");
+        String playlistId = splitUrl[5];
+        WebElement newPlaylist = this.driver.findElement(By.xpath("//*[@href='#!/playlist/"+playlistId+"']"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", newPlaylist);
+        return playlistId;
+    }
+
+    public boolean playlistExists (String playlistId){
+        try {
+            driver.findElement(By.xpath("//*[@href='#!/playlist/"+playlistId+"']"));
+            return true;
+        }
+        catch (NoSuchElementException error){
+            return false;
+        }
+    }
+
+    public void scrollDownPlaylists() {
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@href='#!/playlist/3634']")));
+        WebElement newPlaylist = driver.findElement(By.xpath("//*[@href='#!/playlist/3634']"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", newPlaylist);
+    }
+
+    public void scrollToTopAlbums(){
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='top-albums as-thumbnails']/h1")));
+        WebElement albumSection = driver.findElement(By.xpath("//*[@class='top-albums as-thumbnails']/h1"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", albumSection);
+    }
+
+
+
+
+
+//    public WebElement getPlusButton() {
+//        for (int i = 0; i < 50; i++) {
+//            try {
+//                this.driver.findElement(By.cssSelector(".fa.fa-plus-circle"));
+//            } catch (ElementClickInterceptedException | NoSuchElementException ignored) {
+//
+//            }
+//        }
+//        return this.driver.findElement(By.cssSelector(".fa.fa-plus-circle"));
+//    }
+
+//    public void clickOnPlaylistField(){
+//        for (int i = 0; i <50; i++){
+//            try {
+//                this.driver.findElement(By.xpath("//*[@class='create']/*")).click();
+//                return;
+//            } catch (TimeoutException | NoSuchElementException ignored){
+//
+//            }
+//        }
+//    }
 }
 
