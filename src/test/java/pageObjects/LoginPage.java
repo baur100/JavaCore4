@@ -41,7 +41,7 @@ public class LoginPage extends BasePage{
         this.driver.get("https://koelapp.testpro.io");
     }
 
-    public boolean isError() {
+    public boolean isWrongLogin() {
         try {
             getErrorOutLiner().isDisplayed();
         } catch (TimeoutException xx) {
