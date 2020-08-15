@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import javax.swing.*;
 
-public class DeletePlaylist extends BaseTest implements mTestStringInputs, HtmlPathSelectors{
+public class DeletePlaylistTest extends BaseTest implements mTestStringInputs, HtmlPathSelectors{
 
     @Test
     public void deleteExistingPlaylist(){

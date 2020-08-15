@@ -116,6 +116,31 @@ public class MainPage extends BasePage implements HtmlPathSelectors, mTestString
         return new PlaylistPage(driver);
     }
 
+    public FavoritesPage clickFavoritesButton(){
+//        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(favouritesCssPath)));
+//        cssPathFavourites.click();
+        WebElement favPgBtn = this.driver.findElement(By.cssSelector(favouritesCssPath));
+//        WebElement favPgBtn = this.driver.findElement(By.xpath(playerFavoritesXPath));
+        favPgBtn.isDisplayed();
+        favPgBtn.click();
+        return new FavoritesPage(driver);
+    }
+
+    public AllSongsPage clickAllSongsButton(){
+//        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(allSongsLinkCSSPath)));
+        WebElement cssPathAllSongsLink = driver.findElement(By.cssSelector("[href='#!/songs']"));
+        cssPathAllSongsLink.isDisplayed();
+        cssPathAllSongsLink.click();
+        return new AllSongsPage(driver);
+    }
+
+    public void clickHome(){
+//        cssPathHome.click();
+        WebElement homeBtn = this.driver.findElement(By.cssSelector("[href='#!/home']"));
+        homeBtn.isDisplayed();
+        homeBtn.click();
+    }
+
     public void renamePlayList(String playlistId,String newPlayListnameXX ){
         var playList = driver.findElement(By.xpath(playListNamePart1XPath +playlistId+"']"));
         Actions actions = new Actions(driver);

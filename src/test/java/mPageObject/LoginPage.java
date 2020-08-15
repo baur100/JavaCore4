@@ -46,7 +46,7 @@ public class LoginPage extends BasePage implements HtmlPathSelectors, mTestStrin
             }
         }
 
-        public void action_loginAndAssert(String assert_Check_Type, String userName, String password){
+        public void actionloginAndAssert(String assert_Check_Type, String userName, String password){
             this.driver.get(pageUrl);
             var mainPage = loginToKoel(userName,password);
 

@@ -14,7 +14,7 @@ public class RenamePlaylistTest extends BaseTest implements mTestStringInputs{
         loginPage.openPage();
         var mainPage = loginPage.loginToKoel(userName1, password);
         String playListID = mainPage.createNewPlaylist("xxxxTestPlayList");
-        mainPage.renamePlayList(playListID,"xxxxTestPlayList");
+        mainPage.renamePlayList(playListID,"xzyxxxyzTestPlayList");
     }
 
 }
