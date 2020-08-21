@@ -1,4 +1,4 @@
-package L9HWPageObjects;
+package pageObjectsYK;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;

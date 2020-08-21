@@ -3,22 +3,66 @@
 <suite name="Yana Suite" thread-count="3" parallel="classes">
     <test name="Chrome Browser">
         <classes>
-            <class name="HomeTests.LoginToKoel">
+            <class name="koelTestsChromeYK.LoginToKoel">
                 <methods>
                     <include name="loginPass"/>
                     <include name="loginFail"/>
                 </methods>
             </class>
-            <class name="HomeTests.PlaylistCreate">
+            <class name="koelTestsChromeYK.PlaylistCreate">
                 <methods>
                     <include name="createPlaylist"/>
                     <include name="deletePlaylist"/>
                 </methods>
             </class>
-            <class name="HomeTests.ScrollPage">
+            <class name="koelTestsChromeYK.PlaylistRename">
+                <methods>
+                    <include name="playlistRename"/>
+                    <include name="playlistRename2"/>
+                </methods>
+            </class>
+            <class name="koelTestsChromeYK.ScrollPage">
                 <methods>
                     <include name="scrollToLastPlaylist"/>
                     <include name="scrollToTopAlbums"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Firefox Browser">
+        <classes>
+            <class name="koelTestsMozillaYK.LoginToKoel">
+                <methods>
+                    <include name="loginPass"/>
+                    <include name="loginFail"/>
+                </methods>
+            </class>
+            <class name="koelTestsMozillaYK.PlaylistCreate">
+                <methods>
+                    <include name="createPlaylist"/>
+                    <include name="deletePlaylist"/>
+                </methods>
+            </class>
+            <class name="koelTestsMozillaYK.ScrollPage">
+                <methods>
+                    <include name="scrollToLastPlaylist"/>
+                    <include name="scrollToTopAlbums"/>
+                </methods>
+            </class>
+            <class name="koelTestsMozillaYK.PlaylistRename">
+                <methods>
+                    <include name="playlistRename"/>
+                    <include name="playlistRename2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="API">
+        <classes>
+            <class name="APITestingYK.Pets">
+                <methods>
+                    <include name="getPetById"/>
+                    <exclude name="deletePet"/>
                 </methods>
             </class>
         </classes>

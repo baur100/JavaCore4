@@ -1,6 +1,7 @@
-package L9HWPageObjects;
+package pageObjectsYK;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
@@ -17,6 +18,7 @@ public class MainPage extends Basic {
     }
 
     public WebElement getNewPlaylistField () {
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class = 'create']/*")));
         return this.driver.findElement(By.xpath("//*[@class = 'create']/*"));
     }
 
@@ -89,6 +91,44 @@ public class MainPage extends Basic {
         }
         catch (NoSuchElementException vv){
             return true;
+        }
+    }
+
+    public String renamePlaylist (String playlistId, String newPlName){
+        Actions actions = new Actions(driver);
+        WebElement playlistCreated = driver.findElement(By.xpath("//*[@href='#!/playlist/"+playlistId+"']"));
+        actions.doubleClick(playlistCreated).perform();
+        WebElement editField = driver.findElement(By.xpath("//*[@class='playlist playlist editing']/input"));
+        editField.sendKeys(Keys.CONTROL +"a");
+        editField.sendKeys(newPlName);
+        editField.sendKeys(Keys.ENTER);
+        String name = playlistCreated.getText();
+        return name;
+    }
+
+    //*[@href='#!/playlist/7384']/text()
+
+    public void renamePlaylist2 (String playlistId, String newPlName){
+        Actions actions = new Actions(driver);
+        WebElement playlistCreated = driver.findElement(By.xpath("//*[@href='#!/playlist/"+playlistId+"']"));
+        actions.doubleClick(playlistCreated).perform();
+        WebElement editField = driver.findElement(By.xpath("//*[@class='playlist playlist editing']/input"));
+        editField.sendKeys(Keys.CONTROL +"a");
+        editField.sendKeys(newPlName);
+        editField.sendKeys(Keys.ENTER);
+    }
+
+    public boolean playlistRenamed (String playlistId){
+//        Actions actions = new Actions(driver);
+        wait.until((ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@href='#!/playlist/" + playlistId + "']"))));
+        WebElement playlistRenamed = driver.findElement(By.xpath("//*[@href='#!/playlist/" + playlistId + "']"));
+//        actions.doubleClick(playlistRenamed).perform();
+//        String name = driver.findElement(By.xpath("//*[@class='playlist playlist editing']/input")).getText();
+        String name = playlistRenamed.getText();
+        if (name == "Z1Z") {
+            return true;
+        } else {
+            return false;
         }
     }
 

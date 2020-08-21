@@ -1,4 +1,4 @@
-package L9HWPageObjects;
+package pageObjectsYK;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;

@@ -1,29 +1,11 @@
-package HomeTests;
+package koelTestsMozillaYK;
 
-import L9HWPageObjects.LoginP;
-import L9HWPageObjects.MainPage;
-import enumsYK.BrowserToChoose;
-import helpersYK.BrowserFabrics;
-import org.openqa.selenium.WebDriver;
+import pageObjectsYK.LoginP;
+import pageObjectsYK.MainPage;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class PlaylistCreate {
-    private WebDriver driver;
-
-
-    @BeforeMethod
-    public void startUp() throws NoSuchFieldException {
-        driver = BrowserFabrics.getDriver(BrowserToChoose.CHROME);
-    }
-
-    @AfterMethod
-    public void tearDown() throws InterruptedException {
-        Thread.sleep(2000);
-        driver.quit();
-    }
+public class PlaylistCreate extends BaseTest{
 
     @Test
     public void createPlaylist() {
