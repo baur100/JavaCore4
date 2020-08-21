@@ -2,7 +2,6 @@ package koelTestsMozillaYK;
 
 import pageObjectsYK.LoginP;
 import pageObjectsYK.MainPage;
-import koelTestsChromeYK.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -18,7 +17,7 @@ public class PlaylistRename extends BaseTest {
         String name = mainPage.renamePlaylist(playlistId, "Y1Y");
         Assert.assertEquals("Y1Y", name);
     }
-    @Test(enabled=true)
+    @Test(enabled=false)
     public void playlistRename2() throws InterruptedException {
         LoginP loginPage = new LoginP(driver);
         loginPage.openLoginPage();
