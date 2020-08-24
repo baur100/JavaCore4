@@ -61,18 +61,22 @@ public class Hospital {
 
     public String printHospital() {
         System.out.println("Hospital name" + hospitalName + " address " + address.AddressPrint());
-        for (Doctor d: doctor) {
+        for (Doctor d : doctor) {
             System.out.println("\nList of doctors " + d.doctorPrint());
         }
-        for (InsuranceCompanies ins: acceptedInsurance) {
+        for (InsuranceCompanies ins : acceptedInsurance) {
             System.out.println("\nHospital accepts following insurances: " + "\n" + ins);
         }
-        for (Map.Entry<Integer, String> pair: rooms.entrySet()){
+        for (Map.Entry<Integer, String> pair : rooms.entrySet()) {
             System.out.println("\nList of Rooms of Children's Mercy Hospital: " + pair.getKey() + ": " + pair.getValue());
         }
-
     }
-}
+
+
+  
+
+
+
 
 
 
