@@ -9,6 +9,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class GoogleTest {
     private WebDriver driver;
 
@@ -22,6 +24,16 @@ public class GoogleTest {
     public void tearDown() throws InterruptedException {
         Thread.sleep(1000);
         driver.quit();
+    }
+    @Test
+    public void amazon() throws InterruptedException {
+        driver.get("http://oix-qa-test.s3-website-us-west-1.amazonaws.com/");
+        Thread.sleep(3000);
+        List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'Episode')]"));
+        System.out.println(list.size());
+        for (WebElement xx : list){
+            System.out.println(xx.getText());
+        }
     }
     @Test
     public void findSeleniumInGoogle_AssertResult() throws InterruptedException {
