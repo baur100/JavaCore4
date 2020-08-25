@@ -4,45 +4,22 @@ package apiTests;
 import helpers.RandomGenerator;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import models.Category;
-import models.PetResponse;
-import models.PostPetRequest;
+import models.*;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
 public class petStore {
-    @Test
-    public void getPetById(){
-        Response response =
-                given()
-                    .baseUri("https://petstore.swagger.io/v2/")
-                    .basePath("pet/100")
-                .when()
-                    .get()
-                .then()
-                    .statusCode(200)
-                    .extract()
-                    .response();
+    private Pet pet;
+    public long petId;
 
-
-        JsonPath jsonResponse = response.jsonPath();
-        PetResponse pet = jsonResponse.getObject("$", PetResponse.class);
-
-        // var list = jsonResponse.getObject("$", PetResponse[].class);
-        Category category = jsonResponse.getObject("category", Category.class);
-
-        Assert.assertEquals(pet.getName(),"CaptainJack");
-        String catName = pet.getCategory().getName();
-        Assert.assertEquals(catName,"birds");
-
-        Assert.assertEquals(category.getName(),"birds");
-    }
-
-    @Test
-    public void postPet(){
-        PostPetRequest petRequest = RandomGenerator.petRequestGenerator();
+    @BeforeMethod
+    public void startUp(){
+        PostPetRequest petRequest = (PostPetRequest) RandomGenerator.petRequestGenerator();
+        pet = petRequest;
         Response response =
                 given()
                         .baseUri("https://petstore.swagger.io/v2/")
@@ -58,7 +35,59 @@ public class petStore {
 
         JsonPath jsonPath = response.jsonPath();
         PetResponse petResponse = jsonPath.getObject("$",PetResponse.class);
-        Assert.assertEquals(petRequest.getName(),petResponse.getName());
+        petId = petResponse.getId();
+    }
+    @AfterMethod
+    public void tearDown(){
+                given()
+                        .baseUri("https://petstore.swagger.io/v2/")
+                        .basePath("pet/"+petId)
+                        .when()
+                        .delete()
+                        .then()
+                        .statusCode(200)
+                        .extract()
+                        .response();
+    }
+    @Test
+    public void getPetById(){
+        Response response =
+                given()
+                    .baseUri("https://petstore.swagger.io/v2/")
+                    .basePath("pet/"+petId)
+                .when()
+                    .get()
+                .then()
+                    .statusCode(200)
+                    .extract()
+                    .response();
 
+        JsonPath jsonResponse = response.jsonPath();
+        PetResponse petResponse = jsonResponse.getObject("$", PetResponse.class);
+
+        Assert.assertEquals(petResponse.getName(),pet.getName());
+        Assert.assertEquals(petResponse.getCategory().getName(),pet.getCategory().getName());
+    }
+
+    @Test
+    public void updatePet(){
+        PutPetRequest petRequest = RandomGenerator.petUpdateRequestGenerator();
+        petRequest.setId(petId);
+
+        Response response =
+                given()
+                        .baseUri("https://petstore.swagger.io/v2/")
+                        .basePath("pet")
+                        .header("Content-Type","application/json")
+                        .body(petRequest)
+                        .when()
+                        .put()
+                        .then()
+                        .statusCode(200)
+                        .extract()
+                        .response();
+        JsonPath jsonPath = response.jsonPath();
+        PetResponse petResponse = jsonPath.getObject("$",PetResponse.class);
+        Assert.assertEquals(petResponse.getName(),petRequest.getName());
     }
 }

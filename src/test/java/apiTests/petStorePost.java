@@ -1,0 +1,48 @@
+package apiTests;
+
+import helpers.RandomGenerator;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+import models.PetResponse;
+import models.PostPetRequest;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+
+import static io.restassured.RestAssured.given;
+
+public class petStorePost {
+    private long petId;
+    @AfterMethod
+    public void tearDown(){
+        given()
+                .baseUri("https://petstore.swagger.io/v2/")
+                .basePath("pet/"+petId)
+                .when()
+                .delete()
+                .then()
+                .extract()
+                .response();
+    }
+    @Test
+    public void postPet(){
+        PostPetRequest petRequest = (PostPetRequest) RandomGenerator.petRequestGenerator();
+        Response response =
+                given()
+                        .baseUri("https://petstore.swagger.io/v2/")
+                        .basePath("pet")
+                        .header("Content-Type","application/json")
+                        .body(petRequest)
+                        .when()
+                        .post()
+                        .then()
+                        .statusCode(200)
+                        .extract()
+                        .response();
+
+        JsonPath jsonPath = response.jsonPath();
+        PetResponse petResponse = jsonPath.getObject("$",PetResponse.class);
+        petId = petResponse.getId();
+        Assert.assertEquals(petRequest.getName(),petResponse.getName());
+    }
+}
