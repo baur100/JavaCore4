@@ -59,7 +59,7 @@ public class Hospital {
         this.acceptedInsurance = acceptedInsurance;
     }
 
-    public String printHospital() {
+    public void printHospital() {
         System.out.println("Hospital name" + hospitalName + " address " + address.AddressPrint());
         for (Doctor d : doctor) {
             System.out.println("\nList of doctors " + d.doctorPrint());
@@ -71,6 +71,10 @@ public class Hospital {
             System.out.println("\nList of Rooms of Children's Mercy Hospital: " + pair.getKey() + ": " + pair.getValue());
         }
     }
+}
+
+
+
 
 
   
