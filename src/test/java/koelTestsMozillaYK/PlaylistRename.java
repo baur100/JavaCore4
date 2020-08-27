@@ -17,7 +17,7 @@ public class PlaylistRename extends BaseTest {
         String name = mainPage.renamePlaylist(playlistId, "Y1Y");
         Assert.assertEquals("Y1Y", name);
     }
-    @Test(enabled=false)
+    @Test
     public void playlistRename2() throws InterruptedException {
         LoginP loginPage = new LoginP(driver);
         loginPage.openLoginPage();

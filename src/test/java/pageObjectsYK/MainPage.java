@@ -119,13 +119,10 @@ public class MainPage extends Basic {
     }
 
     public boolean playlistRenamed (String playlistId){
-//        Actions actions = new Actions(driver);
         wait.until((ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@href='#!/playlist/" + playlistId + "']"))));
         WebElement playlistRenamed = driver.findElement(By.xpath("//*[@href='#!/playlist/" + playlistId + "']"));
-//        actions.doubleClick(playlistRenamed).perform();
-//        String name = driver.findElement(By.xpath("//*[@class='playlist playlist editing']/input")).getText();
         String name = playlistRenamed.getText();
-        if (name == "Z1Z") {
+        if (name.equals("Z1Z")) {
             return true;
         } else {
             return false;
