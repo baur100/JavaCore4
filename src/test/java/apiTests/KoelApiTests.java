@@ -37,4 +37,25 @@ public class KoelApiTests {
         System.out.println(playlists.length);
     }
 
+    @Test
+    public void createNewPlaylist(){
+         var response  =
+             given()
+                .baseUri("https://koelapp.testpro.io/")
+                .basePath("api/playlist")
+                .header("Authorization","Bearer "+token)
+                .when()
+                .post()
+                .then()
+                .statusCode(200)
+                .extract()
+                .response();
+        var jsonPath = response.jsonPath();
+        var data = jsonPath.getObject("$", DataResponse.class);
+        System.out.println(data.artists.length);
+
+        var playlist = jsonPath.getObject("playlists", Playlist[].class);
+        System.out.println(playlist);
+    }
+
 }
