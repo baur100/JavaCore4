@@ -11,6 +11,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import static io.restassured.RestAssured.given;
 
 public class KoelPlaylistManagement {
@@ -54,5 +58,42 @@ public class KoelPlaylistManagement {
 
         Playlist playlistFromDatabase = DbAdapter.getPlaylistById(playlistId);
         Assert.assertEquals(newName,playlistFromDatabase.name);
+    }
+
+    @Test
+    public void getAllPlaylists(){
+        Response response =
+                given()
+                        .baseUri("https://koelapp.testpro.io/")
+                        .basePath("api/playlist")
+                        .header("Authorization","Bearer "+token)
+                        .when()
+                        .get()
+                        .then()
+                        .statusCode(200)
+                        .extract()
+                        .response();
+        JsonPath jsonPath = response.jsonPath();
+        Playlist[] playlistResponse = jsonPath.getObject("$",Playlist[].class);
+        List<Playlist> playlistsFromApi= new ArrayList<Playlist>(Arrays.asList(playlistResponse));
+        List<Playlist> playlistsFromDb = DbAdapter.getAllPlaylists();
+
+        Assert.assertEquals(playlistsFromApi.size(),playlistsFromDb.size());
+
+//        for(Playlist plApi: playlistsFromApi){
+//            Playlist plDb = playlistsFromDb.stream().filter(x->x.id==plApi.id).findAny().orElse(null);
+//            Assert.assertNotNull(plDb);
+//            Assert.assertEquals(plDb.name,plApi.name);
+//        }
+        for (Playlist plApi : playlistsFromApi){
+            boolean indicator = false;
+            for (Playlist plDb: playlistsFromDb){
+                if(plApi.id==plDb.id){
+                    Assert.assertEquals(plApi.name,plDb.name);
+                    indicator=true;
+                }
+            }
+            Assert.assertTrue(indicator);
+        }
     }
 }
