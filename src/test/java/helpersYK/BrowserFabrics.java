@@ -15,8 +15,8 @@ public class BrowserFabrics {
                 return getChromeDriver();
             case FIREFOX:
                 return getFirefoxDriver();
-            case EDGE:
-                return getEdgeDriver();
+//            case EDGE:
+//                return getEdgeDriver();
             default:
                 throw new NoSuchFieldException("Browser Not Exist");
         }
@@ -39,9 +39,9 @@ public class BrowserFabrics {
         System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
         return new FirefoxDriver();
     }
-
-    private static WebDriver getEdgeDriver (){
-        System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
-        return new EdgeDriver();
-    }
+//
+//    private static WebDriver getEdgeDriver (){
+//        System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
+//        return new EdgeDriver();
+//    }
 }

@@ -59,7 +59,7 @@
     </test>
     <test name="API">
         <classes>
-            <class name="APITestingYK.Pets">
+            <class name="APITestingYK.PetGet">
                 <methods>
                     <include name="getPetById"/>
                     <exclude name="deletePet"/>
