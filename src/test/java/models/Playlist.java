@@ -11,6 +11,10 @@ public class Playlist {
         this.name = name;
     }
 
+    public Playlist(String name) {
+        this.name = name;
+    }
+
     public Playlist() {
 
     }
