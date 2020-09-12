@@ -5,7 +5,8 @@
         <listener class-name="listeners.Listeners"/>
     </listeners>
     <parameter name="email" value="testpro.user04@testpro.io"/>
-    <parameter name="password" value="te$t$tudent"></parameter>
+    <parameter name="password" value="te$t$tudent"/>
+    <parameter name="browser" value="FIREFOX"/>
     <test name="Selenium tests">
         <classes>
             <class name="koelTests.RenamePlaylistTest">
