@@ -1,6 +1,8 @@
 package APITestingYK;
 
+import ModelsYK.Playlists;
 import ModelsYK.PlaylistsResponse;
+import helpersYK.DbAdapter;
 import helpersYK.RandomGenerator;
 import helpersYK.Token;
 import org.testng.Assert;
@@ -25,12 +27,7 @@ public class KoelPlaylistsCreateTests {
                 .baseUri("https://koelapp.testpro.io/")
                 .basePath("api/playlist/"+playlistId)
                 .header("Authorization", "Bearer" + token)
-                .when()
-                .delete()
-                .then()
-                .statusCode(200)
-                .extract()
-                .response();
+                .delete();
     }
 
     @Test
@@ -55,5 +52,7 @@ public class KoelPlaylistsCreateTests {
         Assert.assertEquals(playlistRequest.getName(), playlistResponse.getName());
         System.out.println(playlistResponse.getName());
         System.out.println(playlistResponse.getId());
+        Playlists plFromDb = DbAdapter.getPlaylistById(playlistId);
+        Assert.assertEquals(playlistRequest.getName(), plFromDb.getName());
     }
 }

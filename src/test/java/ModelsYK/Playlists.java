@@ -6,6 +6,11 @@ public class Playlists {
     private String[] rules;
     private boolean is_smart;
 
+    public Playlists(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     public int getId() {
         return id;
     }

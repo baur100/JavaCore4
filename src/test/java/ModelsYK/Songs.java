@@ -10,6 +10,13 @@ public class Songs {
     private int track;
     private double length;
 
+    public Songs(String id, String title, String created_at, double length) {
+        this.id = id;
+        this.title = title;
+        this.created_at = created_at;
+        this.length = length;
+    }
+
     public String getId() {
         return id;
     }

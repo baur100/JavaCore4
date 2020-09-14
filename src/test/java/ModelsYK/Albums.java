@@ -5,6 +5,12 @@ public class Albums {
     private int artist_id;
     private String name;
 
+    public Albums(int id, int artist_id, String name) {
+        this.id = id;
+        this.artist_id = artist_id;
+        this.name = name;
+    }
+
     public int getId() {
         return id;
     }

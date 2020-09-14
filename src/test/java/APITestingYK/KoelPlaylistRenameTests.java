@@ -1,7 +1,9 @@
 package APITestingYK;
 
+import ModelsYK.Playlists;
 import ModelsYK.PlaylistsResponse;
 import ModelsYK.PostPlaylistRequest;
+import helpersYK.DbAdapter;
 import helpersYK.RandomGenerator;
 import helpersYK.Token;
 import org.testng.Assert;
@@ -49,16 +51,13 @@ public class KoelPlaylistRenameTests {
                 .basePath("api/playlist/"+playlistId)
                 .header("Authorization", "Bearer" + token)
                 .when()
-                .delete()
-                .then()
-                .statusCode(200)
-                .extract()
-                .response();
+                .delete();
     }
 
     @Test
     public void renamePlaylist (){
-        var putRequest = RandomGenerator.postPlaylistRequestGenerator();
+        var newName = RandomGenerator.randomStringGenerator(4);
+        var putRequest = new PostPlaylistRequest(newName);
         putRequest.setId(playlistId);
         var response =
             given()
@@ -77,5 +76,7 @@ public class KoelPlaylistRenameTests {
         var playlistResponse = jsonPath.getObject("$", PostPlaylistRequest.class);
         System.out.println(playlistResponse.getId() + " " + playlistResponse.getName());
         Assert.assertEquals(playlistResponse.getName(), putRequest.getName());
+        Playlists plFromDb = DbAdapter.getPlaylistById(playlistId);
+        Assert.assertEquals(putRequest.getName(), plFromDb.getName());
     }
 }
